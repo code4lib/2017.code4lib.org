@@ -81,8 +81,10 @@ coming soon...
 
 #### Proposal Submission
 
-**Create Proposal Form**
+##### Create Proposal Form
+
 Form Fields
+
 * Title
 * Absctract
 * Speaker Name
@@ -93,10 +95,12 @@ Form Fields
 ##### Publish Proposal Form
 
 **schedule/timeline.html**
+
 1. Uncomment and add the submission link.
 2. Uncomment the link to ```proposed-talks.html```
 
 **/proposed-talks.html**
+
 1. In Google Drive, go to the Responses Sheet. Publish this sheet to the web and copy the resulting url.
 2. Change **ResponseSheetURL** to the url
 3. Edit the rest of the frontmatter to reflect the Sheet Columns (Title, Abstract, & Presenter Names)
