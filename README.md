@@ -73,7 +73,8 @@ coming soon...
 
 ### Presentations
 
-#### Overview 
+#### Overview
+
 1. Proposal Submission
 2. Vote for Proposals
 3. Publish Selected Talks

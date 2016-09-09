@@ -2,179 +2,238 @@
 layout: default
 title: Attend
 ---
-    <div class="row section" id="registration">
-        <div class="cell cell-lg">
-            <div class="row">
+<div class="row section" id="registration">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
                 <h1>Attend Code4Lib</h1>
 
+                    <h3>Conference</h3>
+                    {% if site.data.conf.toggles.register == "on" %}
+                        <a href="{{ site.data.conf.registration-form %}" class="btn btn-lg btn-primary">Register Now!</a>
+                    {% else %}
+                        <p>Registration is closed.</p>
+                    {% endif %}
 
-		            <p>Registration is now closed.</p>
-
-
-                <p><a class="btn btn-lg btn-primary" disabled="disabled" href="https://www.eventsforce.net/concentra/5/register">Pre Conf Registration</a></p>
-                  <h3>Registration Fees</h3>
-                  <p>
-                  <ul>
-                    <li>
-                      <strong>Main Conference </strong> : $200
-                    </li>
-                    <li>
-                      <strong>Pre-Conference, Full Day</strong> : $30, Half Day $15
-                    </li>
-                    <li>
-                      <strong>Pre-Conference Only, Full Day </strong> $50, Half Day $25
-                    </li>
-                  </ul>
-
-                  Note: Pre-Conference Only registrations will happen at a later, TBD date
-                  </p>
-
-
-                  <h3>Society Hill Sheraton Hotel Charges</h3>
-                  <p>
-                  <ul>
-                    <li> <strong>Room Rate</strong> $169/night + 15.5% tax. </li>
-                    <li><strong>WiFi</strong> In-room wireless Internet access is included for guests who registered in the Code4Lib block</li>
-                  </ul>
-                  Note: Tax exempt forms are accepted from non-profits based in PA.
-
-                </p>
-                <p>The above rate is a discount rate for the conference attendees.
-                  You will find a link to the discount booking page at the bottom of your registration receipt.
-                  Read more on the <a href="venue.html">Venue page</a>.</p>
-
-                  <h3>Childcare</h3>
-                  <p>
-                  Childcare is offered Monday - Thursday at a highly subsidized rate of $10/day, thanks to a generous sponsorship by Equinox and CurateCamp.
-                  Details about Childcare are <a href="/childcare.html">available on the conference website</a>.
-                </p>
-                <p>
-                  The registration link will be posted on the website, and will be emailed to the Code4Lib and Code4LibCon listservs.  There will be no waitlist at this time, but there will be a second release of spots on a TBD future date.
-                </p>
-
-                <h3>Additional Information</h3>
-                <ol>
-                  <li>There will be <strong>two opportunities to register</strong>. 12/10/15 was the
-first, where we will be making available 290 spots. Once we have determined
-that all required attendees have registered (sponsors, presenters, workshop
-leaders), we will reopen registration again will open
-at 12 noon (EST) on Wednesday January 13th for the
-remaining spots. The total capacity is 440.</li>
-
-<li>The registration system maintains a two hour session per registration
-attempt. Due to the potential of heavy access and this prolonged session,
-the conference may appear to sell out quickly. But once early failed
-sessions expire, more spots may open up beginning around 2pm. Because of
-this we ask you not to assume it is sold out until you hear an announcement
-from the planning committee.</li>
-
-<li>A waiting list will open when we release the second round of registration slots.</li>
-
-<li>The conference program is not complete at this time. See <a href="http://2016.code4lib.org/talks/">the election
-results</a> to get an idea of what will be part of the program. This list
-represents the presentation voting results. Only the top ten (highlighted)
-have been accepted so far. As in recent years, the remainder of the program
-will be curated by the program committee, taking into account voting
-results, topic diversity, and speaker diversity. These selections will be
-announced in coming weeks.</li>
-
-<li>Registration will include the option to select preconference workshops.
-You can view <a href="http://2016.code4lib.org/workshops">the available workshops beforehand</a> to get an
-idea of what will be offered. Wait lists will be available for
-workshops, and you will receive relevant instructions with your
-confirmation email.</li>
-</ol>
+                    <h3>Preconference Workshops</h3>
+                    {% if site.data.conf.toggles.register-shop == "on" %}
+                        <a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration-form }}">Pre Conf Registration</a></p>
+                    {% endif %}
             </div>
         </div>
+
+
+        <!-- Registration Fees -->
+        <!--
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Registration Fees</h3>
+                <ul>
+                    <li><strong>Main Conference </strong> : $200</li>
+                    <li><strong>Pre-Conference, Full Day</strong> : $30, Half Day $15</li>
+                    <li><strong>Pre-Conference Only, Full Day </strong> $50, Half Day $25</li>
+                </ul>
+                <p>Note: Pre-Conference Only registrations will happen at a later, TBD date</p>
+            </div>
+        </div>
+        -->
+
+        <!-- Hotel Fees -->
+        <!--
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Society Hill Sheraton Hotel Charges</h3>
+                <ul>
+                    <li><strong>Room Rate</strong> $169/night + 15.5% tax.</li>
+                    <li><strong>WiFi</strong> In-room wireless Internet access is included for guests who registered in the Code4Lib block</li>
+                </ul>
+                <p>Note: Tax exempt forms are accepted from non-profits based in PA.</p>
+                <p>
+                    The above rate is a discount rate for the conference attendees. You will find a link to the discount
+                    booking page at the bottom of your registration receipt. Read more on the <a href="{site.data.path}venue.html">Venue page</a>.
+                </p>
+            </div>
+        </div>
+        -->
+
+        <!-- Childcare Fees -->
+        <!--
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Childcare</h3>
+                <p>
+                    Childcare is offered Monday - Thursday at a highly subsidized rate of $10/day, thanks to a generous
+                    sponsorship by Equinox and CurateCamp. Details about Childcare are <a href="{site.data.path}childcare">available on the conference website</a>.
+                </p>
+            </div>
+        </div>
+        -->
+
+        <!-- Additional Info -->
+        <!--
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Additional Information</h3>
+                <ol>
+                    <li>
+                        There will be <strong>two opportunities to register</strong>. 12/10/15 was the
+                        first, where we will be making available 290 spots. Once we have determined
+                        that all required attendees have registered (sponsors, presenters, workshop
+                        leaders), we will reopen registration again will open
+                        at 12 noon (EST) on Wednesday January 13th for the
+                        remaining spots. The total capacity is 440.
+                    </li>
+                    <li>
+                        The registration system maintains a two hour session per registration
+                        attempt. Due to the potential of heavy access and this prolonged session,
+                        the conference may appear to sell out quickly. But once early failed
+                        sessions expire, more spots may open up beginning around 2pm. Because of
+                        this we ask you not to assume it is sold out until you hear an announcement
+                        from the planning committee.
+                    </li>
+                    <li>
+                        A waiting list will open when we release the second round of registration slots.
+                    </li>
+                    <li>
+                        The conference program is not complete at this time.
+                        See <a href="{site.data.path}talks/">the election results</a> to get an idea of what will be part of the program.
+                        This list represents the presentation voting results. Only the top ten (highlighted)
+                        have been accepted so far. As in recent years, the remainder of the program
+                        will be curated by the program committee, taking into account voting
+                        results, topic diversity, and speaker diversity. These selections will be
+                        announced in coming weeks.
+                    </li>
+                    <li>
+                        Registration will include the option to select preconference workshops.
+                        You can view <a href="{site.data.path}workshops">the available workshops beforehand</a> to get an
+                        idea of what will be offered. Wait lists will be available for
+                        workshops, and you will receive relevant instructions with your
+                        confirmation email.
+                    </li>
+                </ol>
+            </div>
+        </div>
+        -->
+
     </div>
+</div>
 
-    <div class="row section" id="registration">
-        <div class="cell cell-lg">
-            <div class="row">
-                <div class="col-xs-12">
-                  <h2>Can't attend in person?</h2>
-                  <h3>Live Stream</h3>
-                  <p>Presentations will be streamed and archived on
-                    our <a href="https://www.youtube.com/user/code4lib/videos">YouTube channel</a>. Please be sure to thank our volunteers that make this happen.</p>
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Can't attend in person?</h2>
 
-                  <h3>Social Media and "Back Channels"</h3>
-                  <p>You can also connect with us via
+                <h3>Live Stream</h3>
+                <p>
+                    Presentations will be streamed and archived on
+                    our <a href="https://www.youtube.com/user/code4lib/videos">YouTube channel</a>.
+                    Please be sure to thank our volunteers that make this happen.
+                </p>
+
+                <h3>Social Media and "Back Channels"</h3>
+                <p>
+                    You can also connect with us via
                     <a href="http://code4lib.slack.com">Slack</a>
                     (requires <a href="https://docs.google.com/forms/d/120Dw1JjLxPJB9VTGl0mUY7Ot6yg6YNY1RZUISJFzdwk/viewform?c=0&w=1">registration</a>),
                     <a href="https://twitter.com/hashtag/C4L2016">Twitter</a>,
-                    <a href="http://code4lib.org/irc">IRC</a> and <a href="https://instagram.com/explore/tags/c4l16/">Instagram</a>.</p>
-                    <h3>Live Transcription</h3>
-                    <p>We are thrilled to be able to provide <a href="https://2020captioning.1capapp.com/event/code4lib/">live transcriptions of all the presentations</a>, thanks to Temple University Libraries.</p>
-                    <div class="row sponsor-row">
-                      <div class="col-xs-12 col-md-6">
+                    <a href="http://code4lib.org/irc">IRC</a> and <a href="https://instagram.com/explore/tags/c4l16/">Instagram</a>.
+                </p>
+
+                <!--
+                <h3>Live Transcription</h3>
+                <p>We are thrilled to be able to provide <a href="https://2020captioning.1capapp.com/event/code4lib/">live transcriptions of all the presentations</a>,
+                    thanks to Temple University Libraries.
+                </p>
+
+                <div class="row sponsor-row">
+                    <div class="col-xs-12 col-md-6">
                         <a href="http://library.temple.edu/" class="thumbnail" style="background: white;">
-                          <img src="https://assets.temple.edu/sites/assets/files/images/svg/temple-university-main-logo.svg" alt="Temple University Libraries">
+                            <img src="https://assets.temple.edu/sites/assets/files/images/svg/temple-university-main-logo.svg" alt="Temple University Libraries">
                         </a>
-                      </div>
                     </div>
                 </div>
+                -->
             </div>
         </div>
     </div>
+</div>
 
-
-    <div class="row section" id="childcare">
-        <div class="cell cell-lg">
-            <div class="row">
-                <div class="col-xs-12">
-                 <h2>Childcare</h2>
-                    <p>Childcare will be provided at the cost of $10/child per day.  This is a highly subsidized rate, and we are grateful
-                    to Equinox and CurateCamp for generously sponsoring our very first Childcare program at Code4Lib!</p>
-                </div>
+<!--
+<div class="row section" id="childcare">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Childcare</h2>
+                <p>
+                    Childcare is offered Monday - Thursday at a highly subsidized rate of $10/day, thanks to a generous
+                    sponsorship by Equinox and CurateCamp. Details about Childcare are <a href="{site.data.path}childcare">available on the conference website</a>.
+                </p>
             </div>
-            <div class="row sponsor-row">
-              <div class="col-xs-12 col-md-6">
+        </div>
+        <div class="row sponsor-row">
+            <div class="col-xs-12 col-md-6">
                 <a href="https://esilibrary.com" class="thumbnail">
-                  <img src="{{ site.data.path }}assets/img/logos/equinox-logo.svg" alt="Equinox">
+                    <img src="{{ site.data.path }}assets/img/logos/equinox-logo.svg" alt="Equinox">
                 </a>
-              </div>
-              <div class="col-xs-12 col-md-6">
+            </div>
+            <div class="col-xs-12 col-md-6">
                 <a href="#" class="thumbnail">
-                  <img src="http://curatecamp.org/sites/default/files/digital_curation_logo2.png" alt="Curate Camp">
+                    <img src="http://curatecamp.org/sites/default/files/digital_curation_logo2.png" alt="Curate Camp">
                 </a>
-              </div>
             </div>
         </div>
     </div>
+</div>
+-->
 
-    <div class="row section" id="policies">
-        <div class="cell cell-lg">
-            <div class="row">
-                <div class="col-xs-12">
-                  <h2>Policies</h2>
-                  <h3>Code of Conduct</h3>
-                  <p>The Code4Lib community seeks to provide a welcoming, safe, and fun conference environment for all attendees. In support
-of this, all conference attendees are required to adhere to the <a href="http://2016.code4lib.org/conduct.html">Code4Lib Code of Conduct</a> throughout the entire conference
-including pre-conference and post-conference activities in all event venues both physical and virtual including presentations,
-workshops, or any community channel such as the chatroom or mailing list.</p>
+<!--
+<div class="row section" id="policies">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Policies</h2>
 
-                  <h3>Registration Cancelation Policy</h3>
-                  <p>All cancellations received on or
+                <h3>Code of Conduct</h3>
+                <p>
+                    The Code4Lib community seeks to provide a welcoming, safe, and fun conference environment for all
+                    attendees. In support of this, all conference attendees are required to adhere to the
+                    <a href="http://2016.code4lib.org/conduct.html">Code4Lib Code of Conduct</a> throughout the entire
+                    conference including pre-conference and post-conference activities in all event venues both physical
+                    and virtual including presentations, workshops, or any community channel such as the chatroom or mailing list.
+                </p>
+
+                <h3>Registration Cancelation Policy</h3>
+                <p>
+                    All cancellations received on or
                     before February 8, 2016 are eligible for a full refund of
                     fees paid, less a 20% cancellation fee. No refunds will be
-                    issued after the February 8 cut-off date.</p>
+                    issued after the February 8 cut-off date.
+                </p>
 
-                    <h3>Giveaway Policy</h3>
-                    <p>You must be present to win a "giveaway prize".  Names will be selected at random from the list of attendees.
-                      Giveaway raffles are held in the main conference room, just after meals and breaks.  Meal and break times are listed in the <a href="/schedule/day-1/">daily schedules</a>.</p>
+                <h3>Giveaway Policy</h3>
+                <p>
+                    You must be present to win a "giveaway prize".  Names will be selected at random from the list of
+                    attendees. Giveaway raffles are held in the main conference room, just after meals and breaks.
+                    Meal and break times are listed in the <a href="{site.data.path}schedule">daily schedules</a>.
+                </p>
 
-                    <h3>Photography Policy</h3>
-                    <p>Do not photograph, film, or audio-record anyone at Code4Lib without their expressly-given permission beforehand.
-                    Color- and patter-coded lanyards are available at the registration desk to help indicate the wearer’s preference for
-                    photography ONLY. Please note, regardless of lanyards, you must always ask before filming or audio-recording attendees.</p>
-                    <h4>Lanyard color code</h4>
-                    <ul>
-                     <li>Solid green printed with {code4lib}: Photographs always okay – this represents expressly-given permission
-                    beforehand</li>
-                     <li>Yellow: Ask before photographing</li>
-                     <li>Red: Photographs never okay, don’t ask</li>
-                     </ul>
-                </div>
+                <h3>Photography Policy</h3>
+                <p>
+                    Do not photograph, film, or audio-record anyone at Code4Lib without their expressly-given permission
+                    beforehand. Color- and patter-coded lanyards are available at the registration desk to help indicate
+                    the wearer’s preference for photography ONLY. Please note, regardless of lanyards, you must always
+                    ask before filming or audio-recording attendees.
+                </p>
+
+                <h4>Lanyard color code</h4>
+                <ul>
+                    <li>Solid green printed with {code4lib}: Photographs always okay – this represents expressly-given permission beforehand</li>
+                    <li>Yellow: Ask before photographing</li>
+                    <li>Red: Photographs never okay, don’t ask</li>
+                </ul>
             </div>
         </div>
     </div>
+</div>
+-->
