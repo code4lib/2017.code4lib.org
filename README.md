@@ -67,20 +67,7 @@ Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less
  
 ## Site Structure
 
-
-### _data/conf.yml
-** New to 2017 **
-Configure certain site aspects without having to edit templates or html files.
-
-* banner-img
-    * src | relative path to banner image
-    * attr | person/org image is attributed to
-    * attr-href | link to original image or person/org 
-* banner-logo | relative path to banner logo
-* location | city of conference
-* dates | dates of conference
-
-* toggles (turn on/off certain site features/time sensitive actions)
+coming soon...
 
 ## Code4Lib Conference Website Workflows
 
@@ -103,22 +90,25 @@ Form Fields
 * Speaker Email
 *(repeat Name/Affiliation/Email for speaker 2-5)*
 
-**Publish Proposal Form**
-```/schedule/timeline.html```
+##### Publish Proposal Form
+
+**schedule/timeline.html**
 1. Uncomment and add the submission link.
 2. Uncomment the link to ```proposed-talks.html```
 
-```/proposed-talks.html```
+**/proposed-talks.html**
 1. In Google Drive, go to the Responses Sheet. Publish this sheet to the web and copy the resulting url.
 2. Change **ResponseSheetURL** to the url
 3. Edit the rest of the frontmatter to reflect the Sheet Columns (Title, Abstract, & Presenter Names)
 4. Uncomment the submission link. Add the submission url.
 
 #### Vote for Proposals
-```/schedule/timeline.html```
+
+**/schedule/timeline.html**
 1. Uncomment and add the link to the voting system.
 
 #### Publish Selected Proposals
+
 1. Make a copy of the response sheet
 2. Add columns for additional metadata:
     * day
@@ -131,9 +121,10 @@ Form Fields
     
 
 ##### Convert sheet to _post files
+
 use [FromSheetsToJekyll](http://queryluke.github.io/fromSheetsToJekyll/)
 
-(better instructions comming soon)
+(better instructions coming soon)
 
 Template
 ```
@@ -168,13 +159,15 @@ Unzip the resulting file and put contents into ```/_posts```
 ### Preconference Workshops
 
 #### Overview 
+
 1. Proposal Submission
 2. Vote for Proposals
 3. Publish Selected Workshops
 
 ### Speakers
 
-#### Overview 
+#### Overview
+ 
 1. Get Speaker Info
 2. Import & Check Speaker Data (on-going)
 
