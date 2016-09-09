@@ -4,33 +4,19 @@
     {% assign posts = site.posts | where:include.param, 1 %}
     {% for post in posts %}
     <div class="cd-timeline-block">
-        <div class="cd-timeline-img">
-        </div> <!-- cd-timeline-img -->
+        <div class="cd-timeline-img"></div>
 
         <div class="cd-timeline-content">
             <div class="col-xs-12" style="margin-bottom: 10px;">
                 <h2>{{ post.title }}</h2>
             </div>
             {% if post.speaker %}
-            {% assign speaker = site.data.speakers[post.speaker] %}
+            {% assign speaker = site.data.past-keynotes[post.speaker] %}
             <div class="col-sm-4 hidden-xs text-center">
-                <a href="{{ site.data.path }}speakers.html#{{ speaker.name | slugify }}-img" class="speaker-overlay" data-content="{{ speaker.name }}">
-                    <img class="clip-circle" src="{{ site.data.path }}{{ speaker.imgpath }}" alt="{{ speaker.name }}">
+                <a href="{{ site.data.path }}past-speakers.html#{{ speaker.Name | slugify }}-img" class="speaker-overlay" data-content="{{ speaker.Name }}">
+                    <img class="clip-circle" src="{{ site.data.path }}{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                 </a>
             </div>
-            {% endif %}
-            {% if post.speakers %}
-                <div class="col-sm-4 hidden-xs">
-                {% assign speakers = post.speakers | split: "," %}
-                {% for speakerdelta in speakers %}
-                    {% assign speaker = site.data.speakers[speakerdelta] %}
-                    <div class="col-sm-12">
-                        <a href="#" class="speaker-overlay" data-content="{{ speaker.name }}">
-                            <img class="clip-circle" src="{{ site.data.path }}{{ speaker.imgpath }}" alt="{{ speaker.name }}">
-                        </a>
-                    </div>
-                {% endfor %}
-                </div>
             {% endif %}
             <div class="col-sm-4 col-xs-6 text-center">
                 <h3 class="past-pres-date">{{ post.date | date: '%Y' }}</h3>

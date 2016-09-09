@@ -5,21 +5,28 @@ title: code4lib - Philadelphia 2016
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="row">
-        <div class="jumbotron" id="main">
-          <div class="container">
-            <img class="code-love" src="img/code-love.svg" alt="Code Love - Philadelphia's LOVE monument reimagined for coders">
-            <h1 class="text-right">Philadelphia</h1>
-            <h2 class="text-right">March 7-10, 2016</h2>
+        <div class="jumbotron" id="main" style="background: url({{ site.data.conf.banner-img.src }}) top no-repeat;">
+            <div class="container">
+                <img class="code-love" src="{{ site.data.conf.banner-logo }}" alt="Code Love - Philadelphia's LOVE monument reimagined for coders">
+                <h1 class="text-right">{{ site.data.conf.location }}</h1>
+                <h2 class="text-right">{{ site.data.conf.dates }}</h2>
 
-           <p class="text-right"><a class="btn btn-lg btn-primary" href="https://www.youtube.com/user/code4lib">Watch the livestream </a></p>
-	    <!-- <div class="attribution">https://www.flickr.com/photos/59761838@N08/5591820123/</div> -->
+                <!-- Livestream -->
+                {% if site.data.conf.toggles.livestream == "on" %}
+                <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.livestream-url }}">Watch the livestream </a></p>
+                {% endif %}
+
+                <!-- Register -->
+                {% if site.data.conf.toggles.register == "on" %}
+                <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.registration-url }}">Register Now!</a></p>
+                {% endif %}
           </div>
         </div>
     </div>
 
     <div class="row attribution">
       <div class="container">
-        <p class="text-right small"><a href="https://www.flickr.com/photos/59761838@N08/5591820123/">photo: Morgan Burke </a></p>
+        <p class="text-right small"><a href="{{ site.data.conf.banner-img.attr-herf }}">photo: {{ site.data.conf.banner-img.attr }} </a></p>
         </div>
     </div>
 
@@ -57,7 +64,7 @@ title: code4lib - Philadelphia 2016
 
       <div class="row section">
         <div class="cell cell-lg">
-          <div class="col-md-2"><img class="clip-circle" src="img/ben.png" alt="Cool Hand Ben"></div>
+          <div class="col-md-2"><img class="clip-circle" src="assets/img/ben.png" alt="Cool Hand Ben"></div>
           <div class="col-md-10">
 
               <h2>Welcome to Philadelphia</h2>

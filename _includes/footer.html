@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="container">
-        <a href="#"><img src="{{ site.data.path }}img/c4l-logo-pink.svg" alt="Code4Lib"></a>
+        <a href="#"><img src="{{ site.data.path }}assets/img/c4l-logo-pink.svg" alt="Code4Lib"></a>
         <ul class="list list--inline list--inline--dotted tsxs">
             <li class="list-item tci"><a href="{{ site.data.path }}index.html">Home</a></li>
             <li class="list-item tci"><a href="{{ site.data.path }}schedule">Schedule</a></li>
@@ -14,7 +14,7 @@
         <div class="bucket">
             <p>
                 <a rel="license" href="//creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 International license">
-                    <img src="{{ site.data.path }}img/cc.png" alt="License"></a>
+                    <img src="{{ site.data.path }}assets/img/cc.png" alt="License"></a>
             </p>
             <div style="display: inline;" xmlns:cc="/ns#" about="http://creativecommons.org">
                 <p>
@@ -31,65 +31,15 @@
     </div>
 </footer>
 
-<script src="/js/lunr.min.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script src="/assets/js/lunr.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ site.data.path }}assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="{{ site.data.path }}assets/js/vendor/bootstrap.min.js"></script>
+<script src="{{ site.data.path }}assets/js/main.js"></script>
+<script src="/assets/js/search.js"></script>
 
-
-<script>window.jQuery || document.write('<script src="{{ site.data.path }}js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="{{ site.data.path }}js/vendor/bootstrap.min.js"></script>
-<script src="{{ site.data.path }}js/main.js"></script>
-<script src="/js/search.js"></script>
-
-{% if page.GoogleSheetsKey != null %}
-<script src="/js/vendor/tabletop.js"></script>
-<script>
-    $( document ).ajaxStart(function() {
-        $( "#loader" ).show();
-    });
-    $( document ).ajaxComplete(function() {
-        $( "#loader" ).hide();
-    });
-
-    fata = {};
-    window.onload = function() { init() };
-
-    function init() {
-        Tabletop.init( { key: '{{ page.GoogleSheetsKey }}',
-            callback: writeTalk,
-            simpleSheet: true } )
-    }
-
-
-    function writeTalk(data, tabletop) {
-        data.forEach(function(entry) {
-            //console.log(entry)
-            theHTML = '';
-            id = entry["Timestamp"].replace(/[^\w\s\d]/gi, '');
-            id = id.replace(/[\s]/gi, '-');
-            theHTML += '<div class="panel panel-default">' +
-                    '<div class="panel-heading" role="tab" id="' + id + 'Header">' +
-                    '<h4 class="panel-title">' +
-                    '<a role="button" data-toggle="collapse" data-parent="#list-of-talks" href="#' + id + '" aria-expanded="true" aria-controls="' + id + '">' +
-                    entry["{{ page.SheetsTitle }}"] +
-                    '</a>' +
-                    '</h4>' +
-                    '</div>' +
-                    '<div id="' + id + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="' + id + 'Header">' +
-                    '<div class="panel-body">' +
-                    '<p>' + entry["{{ page.SheetsAbstract }}"] + '<p>' +
-                    '<h4>Proposed by: ' + entry["{{ page.SheetsPresenter }}"] + '</h4>';
-                    if("{{ page.SheetsType }}" == "workshop"){
-                        theHTML += '<h4>' + entry["Length/Time of Day for Preconference"] + '</h4>';
-                    }
-            theHTML += '</div></div></div>';
-            $("#list-of-talks").append(theHTML);
-        });
-        $('#loader').hide();
-
-    }
-
-
-</script>
+{% if page.layout == 'proposedContent' %}
+<script src="/assets/js/vendor/tabletop.js"></script>
+{% include proposed-js.html %}
 {% endif %}
 
 

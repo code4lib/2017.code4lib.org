@@ -20,15 +20,14 @@ Steps for contributing have been documented in the [wiki on the site's GitHub pa
 
 See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and used in the commit message.
 
-### Here's how to get started and contribute:
+### Setup:
 
-#### The first time you want to contribute
 1. cd to repo root and ```git pull```
 2. ```bundle install```
 3. Continue with step 3 below
 
-#### Subsequent work
-1. Make sure you're on the master branch (necessary if you skipped step 9)
+### Contributing:
+1. Make sure you're on the master branch
   * ```git checkout master```
 2. Make sure your master branch is up to date
   * ```git pull origin master```
@@ -48,42 +47,139 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 9. switch back to the master branch
   * ```git checkout master```
 
-10. go to https://github.com/code4lib/2016.code4lib.org
+10. go to https://github.com/code4lib/2017.code4lib.org
 11. make a pull request base:master and compare:issue-3
 12. wait for someone to test your changes and merge
 13. do the dance of joy
 
-### Making changes to site CSS
-Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```prototype/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
+### Managing Pull Requests
 
-## Managing the Site
-
-#### Checking pull requests
 1. Follow steps 1-3 from Subsequent work
 2. Get any remote branches
   * ```git fetch```
 3. Switch to the branch in question
   * ```git checkout BRANCHNAME```
-4. Check [http://localhost:4000](http://localhost:4000) that nothings broken
-5. Merge that branch and master
+4. Check [http://localhost:4000](http://localhost:4000) that nothing is broken
+5. Merge that branch and master (easiest to manage on the github site)
 
-#### Keeping master and gh-pages in sync
-[Original source](http://lea.verou.me/2011/10/easily-keep-gh-pages-in-sync-with-master/)
+### Making changes to site CSS
+Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```prototype/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
+ 
+## Site Structure
 
-When master is ready to get published:
+
+### _data/conf.yml
+** New to 2017 **
+Configure certain site aspects without having to edit templates or html files.
+
+* banner-img
+    * src | relative path to banner image
+    * attr | person/org image is attributed to
+    * attr-href | link to original image or person/org 
+* banner-logo | relative path to banner logo
+* location | city of conference
+* dates | dates of conference
+
+* toggles (turn on/off certain site features/time sensitive actions)
+
+## Code4Lib Conference Website Workflows
+
+### Presentations
+
+#### Overview 
+1. Proposal Submission
+2. Vote for Proposals
+3. Publish Selected Talks
+
+
+#### Proposal Submission
+
+**Create Proposal Form**
+Form Fields
+* Title
+* Absctract
+* Speaker Name
+* Speaker Affiliation (optional)
+* Speaker Email
+*(repeat Name/Affiliation/Email for speaker 2-5)*
+
+**Publish Proposal Form**
+```/schedule/timeline.html```
+1. Uncomment and add the submission link.
+2. Uncomment the link to ```proposed-talks.html```
+
+```/proposed-talks.html```
+1. In Google Drive, go to the Responses Sheet. Publish this sheet to the web and copy the resulting url.
+2. Change **ResponseSheetURL** to the url
+3. Edit the rest of the frontmatter to reflect the Sheet Columns (Title, Abstract, & Presenter Names)
+4. Uncomment the submission link. Add the submission url.
+
+#### Vote for Proposals
+```/schedule/timeline.html```
+1. Uncomment and add the link to the voting system.
+
+#### Publish Selected Proposals
+1. Make a copy of the response sheet
+2. Add columns for additional metadata:
+    * day
+    * group
+    * spot
+    * length
+    * startTime (timestamp)
+    * endTime (timestamp)
+    * milTime (readable militaryTime)
+    
+
+##### Convert sheet to _post files
+use [FromSheetsToJekyll](http://queryluke.github.io/fromSheetsToJekyll/)
+
+(better instructions comming soon)
+
+Template
 ```
-git add . //add any outstanding files
-git status // to see what changes are going to be commited
-git commit -m 'Some descriptive commit message'
-git push origin master // syncs local and origin master
-git checkout gh-pages // go to the gh-pages branch
-git rebase master // bring gh-pages up to date with master
-git push origin gh-pages // commit the changes
-git checkout master // return to the master branch
+layout: presentation
+speakers-text: [Presenter-Name]
+speakers:
+- [Presenter-Email-1|hash]
+- [Presenter-Email-2|hash]
+- [Presenter-Email-3|hash]
+- [Presenter-Email-4|hash]
+- [Presenter-Email-5|hash]
+voteCount: [Vote-Count]
+day: [Day]
+group: [Group]
+spot: [Spot]
+length: [Length]
+type: talk
+categories: talks
+startTime: [StartTime]
+endTime: [EndTime]
+milTime: [Time]
+
 ```
-Additionally, this can be done in the GUI
-1. make a pull request base:gh-pages and compare:master
-2. Master should be up to date; you can merge your own pull request here.
+
+Values in brackets ```[]``` represent Spreatsheet Column Labels.
+For the initial ingest, it is not necessary to have all the values (e.g., day, group, spot, length) as these will be decided later.
+
+Unzip the resulting file and put contents into ```/_posts``` 
+
+/talks/index.html should now have all the selected talks
+
+### Preconference Workshops
+
+#### Overview 
+1. Proposal Submission
+2. Vote for Proposals
+3. Publish Selected Workshops
+
+### Speakers
+
+#### Overview 
+1. Get Speaker Info
+2. Import & Check Speaker Data (on-going)
+
+### Schedule
+
 
 ## Resources
 More details are available in the [GitHub wiki for this page](https://github.com/code4lib/2016.code4lib.org/wiki)

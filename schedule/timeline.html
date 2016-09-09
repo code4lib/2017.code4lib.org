@@ -1,10 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+---
+layout: default
+title: Schedule
+categories: Schedule
+---
 
-</body>
-</html>
+<div class="row section" id="upcoming-schedule-tasks">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>What's going on?</h2>
+                <p>Over the next months, we'll be finding our keynote speakers and making the presentation lineup. See below for important dates.</p>
+                <p>In the meantime, take a look at some of the previous years' keynotes.</p>
+            </div>
+        </div>
+        <!-- Keynote -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-7">
+                <h2>Keynote Voting</h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-right">
+                <h2><small class="light">TBD</small></h2>
+            </div>
+            <!--
+            <div class="col-xs-6">
+                <p><a href="#">View the Nominees</a></p>
+            </div>
+            <div class="col-xs-6">
+                <p><a href="#" class="btn btn-primary pull-right">Vote!</a></p>
+            </div>-->
+        </div>
+
+        <!-- Talks -->
+        <div class="row">
+
+            <!-- Proposals -->
+            <div class="col-xs-12 col-sm-7">
+                <h2>Call for Conference Proposals</h2>
+                <a href="{{ site.data.path }}about/propose-a-talk.html">About Talk Proposals</a>
+                <!-- <a href="{{ site.data.path }}/proposed-talks.html">View Proposed Talks</a> -->
+            </div>
+            <div class="col-xs-12 col-sm-5 text-right">
+                <h2><small class="light">TBD</small></h2>
+                <!--<a class="btn btn-primary btn-lg" href="">Propose a Talk</a>-->
+            </div>
+
+            <!-- Votes -->
+            <div class="col-xs-12 col-sm-7">
+                <h2>Vote for Conference Proposals</h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-right">
+                <h2><small class="light">TBD</small></h2>
+                <!--<a class="btn btn-primary btn-lg" href="">Vote!</a>-->
+            </div>
+        </div>
+
+        <!-- Workshops -->
+        <div class="row">
+
+            <!-- Proposals -->
+            <div class="col-xs-12 col-sm-7">
+                <h2>Call for Preconference Workshop Proposals</h2>
+                <a href="{{ site.data.path }}about/propose-a-workshop.html">About Preconference Workshops</a>
+                <!-- <a href="{{ site.data.path }}/proposed-workshops.html">View Proposed Workshops</a> -->
+            </div>
+            <div class="col-xs-12 col-sm-5 text-right">
+                <h2><small class="light">TBD</small></h2>
+                <!--<a class="btn btn-primary btn-lg" href="">Propose a Wqrkshop</a>-->
+            </div>
+
+            <!-- Votes -->
+            <div class="col-xs-12 col-sm-7">
+                <h2>Vote for Preconference Workshops</h2>
+            </div>
+            <div class="col-xs-12 col-sm-5 text-right">
+                <h2><small class="light">TBD</small></h2>
+                <!--<a class="btn btn-primary btn-lg" href="">Vote!</a>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="row section">
+    <div class="cell cell-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>11 years of keynote presentations!</h2>
+                {% include presentation_timeline_past.html param="past" %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,20 +1,4 @@
-
-.idea/.name
-
-.idea/2016.code4lib.org.iml
-
-.idea/encodings.xml
-
-.idea/misc.xml
-
-.idea/modules.xml
-
-.idea/scopes/scope_settings.xml
-
-.idea/vcs.xml
-
-.idea/workspace.xml
-
+.idea/*
 _site/*
 
 _data/path.yml

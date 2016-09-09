@@ -1,4 +1,17 @@
-banner-img: "img/phillyscape.jpg"
-banner-logo: "img/code-love.svg"
-conf-location: ""
-conf-dates:
+banner-img:
+  src: "assets/img/phillyscape.jpg"
+  attr: "Morgan Burke"
+  attr-href: "https://www.flickr.com/photos/59761838@N08/5591820123/"
+banner-logo: "assets/img/code-love.svg"
+location: "Philadelphia"
+dates: "March 7-10, 2016"
+livestream-url: "https://www.youtube.com/user/code4lib"
+registration-url: ""
+
+toggles:
+  search: "off"
+  livestream: "off"
+  vote-shop: "off"
+  vote-talk: "off"
+  vote-key: "on"
+  register: "off"

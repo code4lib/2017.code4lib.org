@@ -120,7 +120,7 @@ p {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-	background: url(../img/events_large.jpg) top no-repeat;
+	background: url(../assets/img/events_large.jpg) top no-repeat;
 	background-size: 100%;
 	background-color: #d2c8bf;
 	/* color: #fcf5e3;*/
@@ -133,7 +133,7 @@ p {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-  background: url(../img/chicago-uncropped.jpg) top no-repeat;
+  background: url(../assets/img/chicago-uncropped.jpg) top no-repeat;
 	background-size: 100%;
 	background-color: #d2c8bf;
   /* color: #fcf5e3;*/
@@ -146,7 +146,7 @@ p {
 	padding: 0;
 	background-size: 1600px auto;
 	min-height: 600px;
-  background: url(../img/sponsors.jpg) top no-repeat;
+  background: url(../assets/img/sponsors.jpg) top no-repeat;
 	background-size: 100%;
 	background-color: #d2c8bf;
   /* color: #fcf5e3;*/
