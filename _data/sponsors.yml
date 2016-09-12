@@ -1,0 +1,13 @@
+# Available Levels
+# - platinum
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.png
+  # link: http://www.google.com
+  # level: platinum

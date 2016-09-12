@@ -1,6 +1,6 @@
 evergreen-team:
   Name: Evergreen Team
-  bio: "The Evergreen Project was initiated by the Georgia Public Library System in 2006 to serve their need for a scalable catalog shared by (as of now) more than 275 public libraries in the state of Georgia. After Evergreen was released, it has since been adopted by a number of library consortia in the US and Canada as well as various individual libraries, and has started being adopted by libraries outside of North America. The Evergreen development community is still growing, with about eleven active committers and roughly 65 individuals who have contributed patches (as of March 3, 2013). However, the Evergreen community is also marked by a high degree of participation by the librarians who use the software and contribute documentation, bug reports, and organizational energy. As such, Evergreen is very much about both the developers *and* the users."
+  Bio: "The Evergreen Project was initiated by the Georgia Public Library System in 2006 to serve their need for a scalable catalog shared by (as of now) more than 275 public libraries in the state of Georgia. After Evergreen was released, it has since been adopted by a number of library consortia in the US and Canada as well as various individual libraries, and has started being adopted by libraries outside of North America. The Evergreen development community is still growing, with about eleven active committers and roughly 65 individuals who have contributed patches (as of March 3, 2013). However, the Evergreen community is also marked by a high degree of participation by the librarians who use the software and contribute documentation, bug reports, and organizational energy. As such, Evergreen is very much about both the developers *and* the users."
   Twitter-Handle: EvergreenILS
   email:
   Work-Title:
@@ -9,7 +9,7 @@ evergreen-team:
 
 thomas-hickey:
   Name: Thomas B. Hickey
-  bio:  "I currently lead a group that is investigating algorithms for the FRBR (Functional Requirements for Bibliographic Records) grouping of bibliographic metadata, distributed authority control, text retrieval on Beowulf clusters, Z39.50 and its Web equivalents SRW/U (Search & Retrieve Web Service/URL Service), and applications of the OAI Protocol for Metadata Harvesting (OAI-PMH), such as the NDLTD (Networked Digital Library of Theses and Dissertations) catalog of electronic theses and ERRoLs (Extensible Repository Resource Locators). In addition, we are heavily involved in DSpace and maintain several open source systems, including the PURL (Persistent Uniform Resource Locator) software, and the Pears retrieval engine."
+  Bio:  "I currently lead a group that is investigating algorithms for the FRBR (Functional Requirements for Bibliographic Records) grouping of bibliographic metadata, distributed authority control, text retrieval on Beowulf clusters, Z39.50 and its Web equivalents SRW/U (Search & Retrieve Web Service/URL Service), and applications of the OAI Protocol for Metadata Harvesting (OAI-PMH), such as the NDLTD (Networked Digital Library of Theses and Dissertations) catalog of electronic theses and ERRoLs (Extensible Repository Resource Locators). In addition, we are heavily involved in DSpace and maintain several open source systems, including the PURL (Persistent Uniform Resource Locator) software, and the Pears retrieval engine."
   Twitter-Handle: ThomasBHickey
   email: hickey@oclc.org
   Work-Title: Chief Scientist
@@ -18,7 +18,7 @@ thomas-hickey:
 
 karen-schneider:
   Name: K.G. Schneider
-  bio:  "I am the Dean of the Library at Sonoma State University, an august entity that disavows everything written on this blog and through the wriggling of eyebrows hints around that perhaps I could be doing something better with my time like running a university library, yo. I was formerly the University Librarian at Holy Names University in Oakland, California (a place that seems remarkably similar to the 'Cupcake U' I sometimes blogged about)."
+  Bio:  "I am the Dean of the Library at Sonoma State University, an august entity that disavows everything written on this blog and through the wriggling of eyebrows hints around that perhaps I could be doing something better with my time like running a university library, yo. I was formerly the University Librarian at Holy Names University in Oakland, California (a place that seems remarkably similar to the 'Cupcake U' I sometimes blogged about)."
   Twitter-Handle: kgs
   email:  kgs@freerangelibrarian.com
   Work-Title: Dean of the Library
@@ -27,7 +27,7 @@ karen-schneider:
 
 erik-hatcher:
   Name: Erik Hatcher
-  bio:  "Co-author, Lucene in Action and Java Development with Ant (aka Ant in Action). Authored many articles at java.net, IBM developerWorks, and JavaPro. Frequent speaker at industry conferences, particularly the No Fluff, Just Stuff symposium circuit."
+  Bio:  "Co-author, Lucene in Action and Java Development with Ant (aka Ant in Action). Authored many articles at java.net, IBM developerWorks, and JavaPro. Frequent speaker at industry conferences, particularly the No Fluff, Just Stuff symposium circuit."
   Twitter-Handle: erikhatcher
   email:
   Work-Title: Senior Solutions Architect
@@ -36,7 +36,7 @@ erik-hatcher:
 
 brewster-kahle:
   Name: Brewster Kahle
-  bio: "Digital Librarian and Founder of the Internet Archive, has been working to provide universal access to all knowledge for more than twenty-five years."
+  Bio: "Digital Librarian and Founder of the Internet Archive, has been working to provide universal access to all knowledge for more than twenty-five years."
   Twitter-Handle: brewster_kahle
   email: brewster@archive.org
   Work-Title: Digital Librarian
@@ -45,7 +45,7 @@ brewster-kahle:
 
 karen-coyle:
   Name: Karen Coyle
-  bio: "Karen Coyle is a librarian with over thirty years of experience with library technology. She now consults in a variety of areas relating to digital libraries. Karen has published dozens of articles and reports, most available on her web site, kcoyle.net."
+  Bio: "Karen Coyle is a librarian with over thirty years of experience with library technology. She now consults in a variety of areas relating to digital libraries. Karen has published dozens of articles and reports, most available on her web site, kcoyle.net."
   Twitter-Handle:
   email: kcoyle@kcoyle.net
   Work-Title:
@@ -54,7 +54,7 @@ karen-coyle:
 
 jon-udell:
   Name: Jon Udell
-  bio: "Working for Hypothesis on an open annotation layer."
+  Bio: "Working for Hypothesis on an open annotation layer."
   Twitter-Handle: judell
   email: jon@jonudell.info
   Work-Title:
@@ -63,7 +63,7 @@ jon-udell:
 
 stefano-mazzocchi:
   Name: Stefano Mazzocchi
-  bio: "Previously, he worked as an Application Catalyst at Metaweb Technologies Inc. tasked to help enabling a development ecosystem around Freebase as a platform. Metaweb was acquired by Google in 2010. Before that, he was a research scientist at MIT working on the SIMILE Project for the Digital Library Research Group of the MIT Libraries."
+  Bio: "Previously, he worked as an Application Catalyst at Metaweb Technologies Inc. tasked to help enabling a development ecosystem around Freebase as a platform. Metaweb was acquired by Google in 2010. Before that, he was a research scientist at MIT working on the SIMILE Project for the Digital Library Research Group of the MIT Libraries."
   Twitter-Handle: stefanomaz
   email:
   Work-Title: Software Engineer
@@ -72,7 +72,7 @@ stefano-mazzocchi:
 
 sebastian-hammer:
   Name: Sebastian Hammer
-  bio: "My talent is to discern structure within a complex maze of needs and requirements, to see realistic solutions to problems, and to bridge the gap between customers and technical teams."
+  Bio: "My talent is to discern structure within a complex maze of needs and requirements, to see realistic solutions to problems, and to bridge the gap between customers and technical teams."
   Twitter-Handle: shammer46
   email:
   Work-Title: Information Retrieval Consultant
@@ -81,7 +81,7 @@ sebastian-hammer:
 
 ian-davis:
   Name: Ian Davis
-  bio: "British technology entrepreneur. Primary interests are open data, the semantic web and decentralization."
+  Bio: "British technology entrepreneur. Primary interests are open data, the semantic web and decentralization."
   Twitter-Handle: iand
   email: nospam@iandavis.com
   Work-Title: VP Engineering
@@ -90,16 +90,16 @@ ian-davis:
 
 cathy-marshall:
   Name: Cathy Marshall
-  bio:
+  Bio:
   Twitter-Handle:
   email:
   Work-Title: Principal Researcher
   Institution: Microsoft
-  Image-URL: assets/img/speakers/nopic1.jpg
+  Image-URL: assets/img/nopics/nopic1.jpg
 
 paul-jones:
   Name: Paul Jones
-  bio: "As a teacher, I try to help smart people get smarter. If I do my work right, they think they did it all themselves. Perhaps they did. At ibiblio.org, we help people who want to share their information freely and legally do so."
+  Bio: "As a teacher, I try to help smart people get smarter. If I do my work right, they think they did it all themselves. Perhaps they did. At ibiblio.org, we help people who want to share their information freely and legally do so."
   Twitter-Handle: smalljones
   email: jones@unc.edu
   Work-Title: Director
@@ -108,7 +108,7 @@ paul-jones:
 
 diane-hillmann:
   Name: Diane Hillmann
-  bio: "She is the editor of Using Dublin Core, former administrator of the AskDCMI Service, co-moderator of the DC Education Community, and former member of the DCMI Usage Board. She is active in the library standards community, having served several terms on the MARC Standards Advisory Committee (MARBI) as a liaison from the law library community and as a LITA representative."
+  Bio: "She is the editor of Using Dublin Core, former administrator of the AskDCMI Service, co-moderator of the DC Education Community, and former member of the DCMI Usage Board. She is active in the library standards community, having served several terms on the MARC Standards Advisory Committee (MARBI) as a liaison from the law library community and as a LITA representative."
   Twitter-Handle:
   email:
   Work-Title: Director of Metadata Initiatives
@@ -117,7 +117,7 @@ diane-hillmann:
 
 dan-chudnov:
   Name: Dan Chudnov
-  bio: "20-year hacker / librarian and newly-trained data scientist."
+  Bio: "20-year hacker / librarian and newly-trained data scientist."
   Twitter-Handle: dchud
   email:
   Work-Title: Director, Scholarly Technology
@@ -126,7 +126,7 @@ dan-chudnov:
 
 bethany-nowviskie:
   Name: Bethany Nowviskie
-  bio: "Computing humanist/humane computationalist since 1996."
+  Bio: "Computing humanist/humane computationalist since 1996."
   Twitter-Handle: nowviskie
   email: bethany@virginia.edu
   Work-Title: Director of the Digital Library Federation
@@ -135,7 +135,7 @@ bethany-nowviskie:
 
 leslie-johnston:
   Name: Leslie Johnston
-  bio: "Leslie Johnston has over twenty years’ experience in digitization and digital conversion, setting and applying metadata and content standards, and overseeing the development of digital content management and delivery systems and services."
+  Bio: "Leslie Johnston has over twenty years’ experience in digitization and digital conversion, setting and applying metadata and content standards, and overseeing the development of digital content management and delivery systems and services."
   Twitter-Handle: lljohnston
   email:
   Work-Title: Director of Digital Preservation
@@ -144,7 +144,7 @@ leslie-johnston:
 
 gordon-dunsire:
   Name: Gordon Dunsire
-  bio: "linked data. semantic web. metadata. digital libraries. collection-level description. databases for information."
+  Bio: "linked data. semantic web. metadata. digital libraries. collection-level description. databases for information."
   Twitter-Handle: gordondunsire
   email:
   Work-Title: Independent Consultant
@@ -153,7 +153,7 @@ gordon-dunsire:
 
 sumana-harihareswara:
   Name: Sumana Harihareswara
-  bio: "I contribute to and lead open source software communities. More generally, I'm a programmer, technology executive and open source expert who teaches both technical and process skills."
+  Bio: "I contribute to and lead open source software communities. More generally, I'm a programmer, technology executive and open source expert who teaches both technical and process skills."
   Twitter-Handle: brainwane
   email: sumanah@panix.com
   Work-Title: Open source programmer
@@ -162,7 +162,7 @@ sumana-harihareswara:
 
 valerie-aurora:
   Name: Valerie Aurora
-  bio: "A writer, programmer, and feminist activist. I am a co-founder of the Ada Initiative, a non-profit to promote women in open technology and culture, and also Double Union, a feminist makerspace in San Francisco."
+  Bio: "A writer, programmer, and feminist activist. I am a co-founder of the Ada Initiative, a non-profit to promote women in open technology and culture, and also Double Union, a feminist makerspace in San Francisco."
   Twitter-Handle: vaurorapub
   email: valerie.aurora@gmail.com
   Work-Title: Interim Executive Director
@@ -172,7 +172,7 @@ valerie-aurora:
 
 andromeda-yelton:
   Name: Andromeda Yelton
-  bio: "I’ve been a math major and a middle school Latin teacher. Now I’m a librarian and technologist, and the thing that keeps me up at night and makes me smile is empowering librarians through code."
+  Bio: "I’ve been a math major and a middle school Latin teacher. Now I’m a librarian and technologist, and the thing that keeps me up at night and makes me smile is empowering librarians through code."
   Twitter-Handle: thatandromeda
   email: andromeda.yelton@gmail.com
   Work-Title: Library Consultant
@@ -181,7 +181,7 @@ andromeda-yelton:
 
 selena-deckelmann:
   Name: Selena Deckelmann
-  bio: "I contribute to PostgreSQL, run Postgres Open and keep chickens."
+  Bio: "I contribute to PostgreSQL, run Postgres Open and keep chickens."
   Twitter-Handle: selenamarie
   email:
   Work-Title: Data Architect
