@@ -19,22 +19,22 @@
 @gray-light: #D1D3D4;
 
 //@brand-primary:         darken(#428bca, 6.5%); // #337ab7
-@brand-primary:         darken(@red-primary, 6.5%);
+@brand-primary:         darken(@primary, 6.5%);
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
 
 // Primaries
-@red-dark:  #A12027;
-@red-primary: #C82829;
-@red-200: #E57373;
-@red-100: #EF9A9B;
-@red-50: #FDEBEE;
+@dark:  #332C2F;
+@primary: #67655D;
+@200: #D4D8D1;
+@100: #577492;
+@50: #FFFFFF;
 
 // Accents
-@aqua: #00AEEF;
-@aqua-light: #7FD3F2;
+@accent: #B74934;
+@accent-light: #fc8a56;
 
 
 
@@ -43,7 +43,7 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               @red-50; // #fff;
+@body-bg:               @50; // #fff;
 //** Global text color on `<body>`.
 @text-color:            @gray-dark;
 
@@ -244,23 +244,23 @@
 //## Dropdown menu container and contents.
 
 //** Background for the dropdown menu.
-@dropdown-bg:                    @red-50;
+@dropdown-bg:                    @50;
 //** Dropdown menu `border-color`.
 @dropdown-border:                rgba(0,0,0,.15);
 //** Dropdown menu `border-color` **for IE8**.
 @dropdown-fallback-border:       #ccc;
 //** Divider color for between dropdown items.
-@dropdown-divider-bg:            @red-100;
+@dropdown-divider-bg:            @100;
 
 //** Dropdown link text color.
 @dropdown-link-color:            @gray-dark;
 //** Hover color for dropdown links.
 @dropdown-link-hover-color:      darken(@gray-dark, 5%);
 //** Hover background for dropdown links.
-@dropdown-link-hover-bg:         @aqua-light;
+@dropdown-link-hover-bg:         @accent-light;
 
 //** Active dropdown menu item text color.
-@dropdown-link-active-color:     @aqua-light; //@component-active-color;
+@dropdown-link-active-color:     @accent-light; //@component-active-color;
 //** Active dropdown menu item background color.
 @dropdown-link-active-bg:        @component-active-bg;
 
@@ -379,15 +379,15 @@
 @navbar-collapse-max-height:       340px;
 
 // @navbar-default-color:             #777;
-@navbar-default-color:             @red-50;
-@navbar-default-bg:                @red-dark;
+@navbar-default-color:             @50;
+@navbar-default-bg:                @dark;
 @navbar-default-border:            darken(@navbar-default-bg, 6.5%);
 
 // Navbar links
-@navbar-default-link-color:                @red-50;
-@navbar-default-link-hover-color:          @aqua-light;
+@navbar-default-link-color:                @50;
+@navbar-default-link-hover-color:          @accent-light;
 @navbar-default-link-hover-bg:             transparent;
-@navbar-default-link-active-color:         @aqua;
+@navbar-default-link-active-color:         @accent;
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 6.5%);
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;

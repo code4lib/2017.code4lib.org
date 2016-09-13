@@ -4,14 +4,14 @@
 
 ## Intro
 
-This site was developed by the [Code4Lib 2016 Conference Committee Website Working Group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview 
+This site was developed by the [Code4Lib 2016 Conference Committee Website Working Group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview
 of the Code4Lib 2016 Annual Conference. A great deal of conference and organizational info can be found on the [Code4Lib Wiki](http://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](http://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
 
 This site was designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).  We also custom build  Bootstrap 3.3.4 from less files for basic site colors and fonts.
 
 ## About Jekyll
 
-[Jekyll](http://jekyllrb.com) is a Rails gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details. 
+[Jekyll](http://jekyllrb.com) is a Rails gem that generates static websites from markdown, HTML, and other formats. See the [official Jekyll documentation](http://jekyllrb.com/docs/home/) for details.
 
 
 ## Contributing
@@ -63,8 +63,8 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 5. Merge that branch and master (easiest to manage on the github site)
 
 ### Making changes to site CSS
-Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```prototype/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
- 
+Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```assets/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
+
 ## Site Structure
 
 coming soon...
@@ -123,7 +123,7 @@ Form Fields
     * startTime (timestamp)
     * endTime (timestamp)
     * milTime (readable militaryTime)
-    
+
 
 ##### Convert sheet to _post files
 
@@ -157,13 +157,13 @@ milTime: [Time]
 Values in brackets ```[]``` represent Spreatsheet Column Labels.
 For the initial ingest, it is not necessary to have all the values (e.g., day, group, spot, length) as these will be decided later.
 
-Unzip the resulting file and put contents into ```/_posts``` 
+Unzip the resulting file and put contents into ```/_posts```
 
 /talks/index.html should now have all the selected talks
 
 ### Preconference Workshops
 
-#### Overview 
+#### Overview
 
 1. Proposal Submission
 2. Vote for Proposals
@@ -172,7 +172,7 @@ Unzip the resulting file and put contents into ```/_posts```
 ### Speakers
 
 #### Overview
- 
+
 1. Get Speaker Info
 2. Import & Check Speaker Data (on-going)
 
@@ -183,4 +183,3 @@ Unzip the resulting file and put contents into ```/_posts```
 More details are available in the [GitHub wiki for this page](https://github.com/code4lib/2016.code4lib.org/wiki)
 
 [Conference Website Working Group wiki page: Working Group Documents](http://wiki.code4lib.org/Website_Working_Group_Documents)
-
