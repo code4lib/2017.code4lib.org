@@ -1,0 +1,16 @@
+livestream-url: "https://www.youtube.com/user/code4lib"
+talk-proposal-form: ""
+registration-form: ""
+workshop-registration-form: ""
+
+
+toggles:
+  search: "off"
+  livestream: "off"
+  prop-talk: "off"
+  prop-shop: "off"
+  vote-shop: "off"
+  vote-talk: "off"
+  vote-key: "off"
+  register: "off"
+  register-shop: "off"

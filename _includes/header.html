@@ -11,88 +11,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="{{ site.data.path }}prototype/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="{{ site.data.path }}assets/bootstrap/dist/css/bootstrap.css">
     <style>
         body {
             padding-bottom: 20px;
         }
     </style>
-    <link rel="stylesheet" href="{{ site.data.path }}css/main.css">
-    <link rel="stylesheet" href="{{ site.data.path }}css/timeline-style.css">
+    <link rel="stylesheet" href="{{ site.data.path }}assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.data.path }}assets/css/timeline-style.css">
 
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,400italic,500|Alegreya:700,700italic,italic,regular|Alegreya+SC:700,regular&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <script src="{{ site.data.path }}js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="{{ site.data.path }}assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.data.path }}"><img src="{{ site.data.path }}img/c4l-logo-pink.svg" alt="Code4Lib"></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.data.path }}index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{ site.data.path }}schedule">Overview</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="{{ site.data.path }}workshops">Workshops</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="{{ site.data.path }}schedule/day-1">Day 1</a></li>
-                        <li><a href="{{ site.data.path }}schedule/day-2">Day 2</a></li>
-                        <li><a href="{{ site.data.path }}schedule/day-3">Day 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="{{ site.data.path }}attend.html">Attend</a></li>
-                <!--<li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedule <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{ site.data.path }}schedule/preconference">Preconferences</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="{{ site.data.path }}schedule/day-1">Day One (Tuesday)</a></li>
-                        <li><a href="{{ site.data.path }}schedule/day-2">Day Two (Wednesday)</a></li>
-                        <li><a href="{{ site.data.path }}schedule/day-3">Day Three (Thursday)</a></li>
-                    </ul>
-                </li>-->
-                <li><a href="{{ site.data.path }}speakers.html">Speakers</a></li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Venues <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="{{ site.data.path }}venue.html">Conference Venues</a></li>
-
-                        <li><a href="{{ site.data.path }}mutter.html">Reception Venue</a></li>
-
-                    </ul>
-                </li>
-                <li><a href="{{ site.data.path }}sponsors.html">Sponsors</a></li>
-                <li><a href="{{ site.data.path }}diversity-scholarships/recipients.html">Scholarships</a></li>
-                <li><a href="{{ site.data.path }}conduct.html">Conduct</a></li>
-                <li><a href="{{ site.data.path }}about.html">About</a></li>
-                <li><form class="navbar-form" action="get" id="site_search">
-                  <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Search Presentations" id="search_box">
-                    <div class="input-group-btn">
-                      <button class="btn btn-default" type="submit" alt="Search"><i class="glyphicon glyphicon-search"></i></button>
-                    </div>
-                  </div>
-                </form></li>
-            </ul>
-
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+{% include nav.html %}

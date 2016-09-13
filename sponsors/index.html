@@ -1,0 +1,109 @@
+---
+layout: default
+title: Sponsors
+---
+
+<div class="sub-container">
+    <div class="row section" id="sponsorships">
+        <div class="cell cell-lg">
+            <h1>We ❤ our sponsors.</h1>
+
+            <!-- Platinum -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Platinum Sponsors" badge="platinum" %}
+
+                {% assign platinum = site.data.sponsors | where_exp:"item", "item.level == 'platinum'" %}
+                {% for sponsor in platinum %}
+                <div class="col-xs-12 col-md-6">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Gold -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Gold Sponsors" badge="gold" %}
+
+                {% assign gold = site.data.sponsors | where_exp:"item", "item.level == 'gold'" %}
+                {% for sponsor in gold %}
+                <div class="col-xs-12 col-md-6">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Silver -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Silver Sponsors" badge="silver" %}
+
+                {% assign silver = site.data.sponsors | where_exp:"item", "item.level == 'silver'" %}
+                {% for sponsor in silver %}
+                <div class="col-xs-8 col-md-4">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Bronze -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Bronze Sponsors" badge="bronze" %}
+
+                {% assign bronze = site.data.sponsors | where_exp:"item", "item.level == 'bronze'" %}
+                {% for sponsor in bronze %}
+                <div class="col-xs-8 col-md-4">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Contributors -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Contributors" badge="star" %}
+
+                {% assign contributor = site.data.sponsors | where_exp:"item", "item.level == 'contributor'" %}
+                {% for sponsor in contributor %}
+                <div class="col-xs-6 col-md-2">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Supporters -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Supporters" badge="thumbs-up" %}
+
+                {% assign supporter = site.data.sponsors | where_exp:"item", "item.level == 'supporter'" %}
+                {% for sponsor in supporter %}
+                <div class="col-xs-6 col-md-3">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <hr/>
+
+            <p>Interested in sponsoring Code4Lib 2017?</p>
+
+            <p>
+                <a class="btn btn-primary btn-lg" href="/prospectus">View our Prospectus</a>
+            </p>
+            <img src="{{ site.data.path }}assets/img/sponsors.jpg" title="Credit schwartzray on Flickr" alt="Code4Lib T-shirt" width="100%">
+            <p class="text-right small">
+                Code4Lib T-shirt 2013 <a href="https://www.flickr.com/photos/schwartzray/sets/72157640116429213">photo: Ray Swartz on Flickr</a>
+            </p>
+
+        </div>
+    </div>
+</div>
