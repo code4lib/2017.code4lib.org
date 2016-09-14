@@ -2,6 +2,10 @@
 _site/*
 .DS_Store
 .jekyll-metadata
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 _data/path.yml
 npm-debug.log
 nbproject/*
