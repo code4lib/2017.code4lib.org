@@ -88,11 +88,11 @@ p {
 }
 
 .section:nth-child(2) {
-  background: #D4D8D1;
+  background: $two-hundred;
 }
 
 .section:nth-child(3) {
-  background: #E57373;
+  background: $accent-light;
   color: #fff;
 }
 
@@ -245,7 +245,7 @@ p {
 }
 
 .attribution {
-  background-color: #D4D8D1;
+  background-color: $two-hundred;
   color: #fcf5e3;
   padding-top: 0px;
   padding-right:10px;
@@ -253,7 +253,7 @@ p {
 
 .attribution a{
 
-  color: #fff;
+  color: $dark;
   padding: 6px;
   /*
   background-color: #00AEEF;
@@ -377,7 +377,7 @@ p {
 }
 
 #testimonials .thumbnail {
-  background-color: #D4D8D1;
+  background-color: $two-hundred;
   border: 0px;
 }
 @media (min-width: 992px){
