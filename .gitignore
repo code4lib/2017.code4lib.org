@@ -1,7 +1,9 @@
 .idea/*
 _site/*
 .DS_Store
-
+.jekyll-metadata
 _data/path.yml
-
+npm-debug.log
 nbproject/*
+node_modules/*
+.sass-cache/*
