@@ -6,4 +6,7 @@ timezone: America/New_York
 sass:
   load_paths:
     - assets/css
-    - node_modules/bootstrap-sass/assets/stylesheets
+gems:
+  - jekyll-bootstrap-sass
+bootstrap:
+  assets: true
