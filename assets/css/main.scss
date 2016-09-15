@@ -40,7 +40,7 @@ body {
 }
 
 .footer a {
-  color: #7FD3F2;
+  color: $accent-light;
 }
 
 .footer p {
@@ -88,11 +88,11 @@ p {
 }
 
 .section:nth-child(2) {
-  background: $two-hundred;
+  background: $primary-light;
 }
 
 .section:nth-child(3) {
-  background: $accent-light;
+  background: $primary;
   color: #fff;
 }
 
@@ -116,33 +116,6 @@ p {
   min-height: 600px;
   background-size: 100%;
   background-color: #d2c8bf;
-  /* color: #fcf5e3;*/
-  color: #fff;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-  position: relative;
-}
-
-#about {
-  padding: 0;
-  background-size: 1600px auto;
-  min-height: 600px;
-  background: url(../assets/img/chicago-uncropped.jpg) top no-repeat;
-  background-size: 100%;
-  background-color: #d2c8bf;
-  /* color: #fcf5e3;*/
-  color: #fff;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-  position: relative;
-}
-
-#sponsors {
-  padding: 0;
-  background-size: 1600px auto;
-  min-height: 600px;
-  background: url(../assets/img/sponsors.jpg) top no-repeat;
-  background-size: 100%;
-  background-color: #d2c8bf;
-  /* color: #fcf5e3;*/
   color: #fff;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
   position: relative;
@@ -158,6 +131,10 @@ p {
 
 .sponsor-plate h2 {
   font-size: 3.5em;
+}
+
+#targetedSponsorship .row:nth-child(even) .thumbnail {
+  background-color: lighten($accent-light, 30%);
 }
 
 .who {
@@ -227,12 +204,6 @@ p {
   color: #333333;
 }
 
-.stripe1 { background-color: #410405; }
-.stripe2 { background-color: #F1CC4E; }
-.stripe3 { background-color: #F4A949; }
-.stripe4 { background-color: #A51212; }
-
-
 .jumbotron {
   margin-bottom: 0px;
 }
@@ -245,7 +216,7 @@ p {
 }
 
 .attribution {
-  background-color: $two-hundred;
+  background-color: $primary-light;
   color: #fcf5e3;
   padding-top: 0px;
   padding-right:10px;
@@ -253,27 +224,12 @@ p {
 
 .attribution a{
 
-  color: $dark;
+  color: $primary-dark;
   padding: 6px;
-  /*
-  background-color: #00AEEF;
-  transform:  skew(29deg, 0deg) ;
-  -webkit-transform:  skew(29deg, 0deg) ;
-  -moz-transform: skew(29deg, 0deg) ;
-  -o-transform:  skew(29deg, 0deg) ;
-  -ms-transform:  skew(29deg, 0deg) ;
-  */
 }
 
 .attribution p{
   margin: auto;
-  /*
-  transform:  skew(-29deg, 0deg) ;
-  -webkit-transform:  skew(-29deg, 0deg) ;
-  -moz-transform: skew(-29deg, 0deg) ;
-  -o-transform:  skew(-29deg, 0deg) ;
-  -ms-transform:  skew(-29deg, 0deg) ;
-  */
 }
 
 .subcategories {
@@ -346,8 +302,8 @@ p {
 
 .speech-bubble {
   color: white;
-  background-color: #1fb7ef;
-  border: 1px solid #198fbb;
+  background-color: $accent-light;
+  border: 1px solid $accent;
   border-radius: 5px;
   width: auto;
   padding: 20px;
@@ -361,13 +317,13 @@ p {
 }
 
 .bottom {
-  border-color: #198fbb transparent transparent transparent;
+  border-color: $accent transparent transparent transparent;
   border-width: 8px 8px 0px 8px;
   bottom: -8px;
 }
 
 .bottom:after {
-  border-color: #1fb7ef transparent transparent transparent;
+  border-color: $accent-light transparent transparent transparent;
   border-style: solid;
   border-width: 7px 7px 0px 7px;
   bottom: 1px;
@@ -377,7 +333,7 @@ p {
 }
 
 #testimonials .thumbnail {
-  background-color: $two-hundred;
+  background-color: $primary-light;
   border: 0px;
 }
 @media (min-width: 992px){
@@ -432,7 +388,7 @@ p {
   width: 35px;
   padding: 12px 0;
   text-align: center;
-  background-color: #1fb7ef;
+  background-color: $accent-light;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -443,7 +399,7 @@ p {
 }
 #contact_inner {
   position: fixed;
-  background-color: #1fb7ef;
+  background-color: $accent-light;
   top: 60px;
   left: -250px;
   width: 250px;
@@ -465,7 +421,7 @@ p {
 }
 
 #contact .thumbnail{
-  background-color: #1fb7ef;
+  background-color: $accent-light;
   color: #ffffff;
   padding: 20px;
   -webkit-transition-duration: 0.3s;
@@ -507,7 +463,7 @@ p {
 }
 
 .spinner > div {
-  background-color: #1fb7ef;
+  background-color: $accent-light;
   height: 100%;
   width: 6px;
   display: inline-block;
@@ -646,7 +602,8 @@ p.speaker-inst{
   font-size: .9em;
 }
 .speaker-info{
-  background-color: #ffffff;
+  background-color: $primary-light;
+  color: #fff;
   width: 900px;
   display: flex;
   -webkit-flex-flow: row wrap;
@@ -690,19 +647,19 @@ p.speaker-inst{
   width: 100%
 }
 .speaker-box.selected .speaker-box-inner{
-  background-color:#C82829;
+  background-color: $accent;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
 .speaker-box.selected a{
-  color:#7fd3f2;
+  color:$primary-lighter;
 }
 .speaker-box.selected a:hover, .speaker-box.selected a:focus, .speaker-box.selected a:visited{
-  color:#7fd3f2;
+  color:$primary-lighter;
   text-decoration: none;
 }
 .speaker-box.selected p{
-  color: #eee;
+  color: $primary-lighter;
 }
 
 .arrow-down {
@@ -712,7 +669,7 @@ p.speaker-inst{
   border-right: 140px solid transparent;
   position: absolute;
   z-index: 99;
-  border-top: 15px solid #C82829;
+  border-top: 15px solid $accent;
   margin-top: 15px;
   opacity: 0;
 }
@@ -739,7 +696,7 @@ p.speaker-inst{
 }
 
 .talk-detail-box .time-slot {
-  background: #7FD3F2;
+  background: $accent-light;
 }
 
 .talk-detail-box .building {
@@ -748,7 +705,7 @@ p.speaker-inst{
 
 
 .talk-detail-box .time-length {
-  background: #00AEEF;
+  background: $accent;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -795,9 +752,9 @@ p.speaker-inst{
 .tasting-menu {
   padding: 20px 18px 40px;
   margin-bottom: 75px;
-  border: #7fd3f2 4px double;
+  border: $accent-light 4px double;
   margin-right: 0;
-  background: #fdebee;
+  background: $primary-lighter;
 }
 
 .tasting-menu .tasting-intro {
@@ -825,19 +782,19 @@ p.speaker-inst{
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  background: #00AEEF;
+  background: $accent;
   text-align: center;
   padding: 20px 60px;
   margin-bottom: 26px;
   font: 48px/1 din-condensed-web, sans-serif;
-  background-color: #00AEEF;
+  background-color: $accent;
   padding: 10px 20px;
   margin-top: 0;
 }
 
 .tasting-menu .tasting-options h5 {
   font-style: normal;
-  color: #00AEEF;
+  color: $accent;
   font-family: din-condensed-web, sans-serif;
   font-size: 20px;
 }
