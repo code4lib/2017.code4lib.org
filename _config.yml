@@ -6,4 +6,4 @@ timezone: America/New_York
 sass:
   load_paths:
     - assets/css
-    - assets/bootstrap-sass/assets/stylesheets
+    - node_modules/bootstrap-sass/assets/stylesheets
