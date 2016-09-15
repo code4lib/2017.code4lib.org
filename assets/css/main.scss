@@ -302,8 +302,12 @@ p {
 
 .speech-bubble {
   color: white;
+  background-color: $secondary;
+  border: 1px solid $secondary-dark;
+  /*
   background-color: $accent-light;
   border: 1px solid $accent;
+  */
   border-radius: 5px;
   width: auto;
   padding: 20px;
@@ -317,13 +321,13 @@ p {
 }
 
 .bottom {
-  border-color: $accent transparent transparent transparent;
+  border-color: $secondary-dark transparent transparent transparent;
   border-width: 8px 8px 0px 8px;
   bottom: -8px;
 }
 
 .bottom:after {
-  border-color: $accent-light transparent transparent transparent;
+  border-color: $secondary transparent transparent transparent;
   border-style: solid;
   border-width: 7px 7px 0px 7px;
   bottom: 1px;

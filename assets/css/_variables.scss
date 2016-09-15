@@ -9,6 +9,7 @@ $primary: #67655D !default;
 $primary-light: #D4D8D1 !default;
 $primary-lighter: #FFFFFF !default;
 $secondary: #577492;
+$secondary-dark: darken($secondary, 6.5%) !default; 
 
 // Accents
 $accent: #B74934;
