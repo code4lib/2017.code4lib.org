@@ -63,7 +63,7 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 5. Merge that branch and master (easiest to manage on the github site)
 
 ### Making changes to site CSS
-Site uses Bootstrap 3.3.5 and SCSS. To load the bootstrap files, you'll need Node,js and to run ```npm install``` in the root dir.
+Site uses Bootstrap 3.3.5 and SCSS.
 
 SCSS files are found in /assets/css. Edit ```_variables.scss``` to override bootstrap defaults.
 You're encouraged to reuse those variables throughout the custom scss files.
