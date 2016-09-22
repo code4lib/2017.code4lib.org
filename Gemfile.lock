@@ -146,8 +146,9 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bootstrap-sass
   github-pages
   jekyll-bootstrap-sass
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
