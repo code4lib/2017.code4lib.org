@@ -4,8 +4,7 @@ exclude: [node_modules]
 future: true
 timezone: America/New_York
 sass:
-  load_paths:
-    - assets/css
+  sass_dir: assets/css
 gems:
   - jekyll-bootstrap-sass
 bootstrap:
