@@ -63,7 +63,10 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 5. Merge that branch and master (easiest to manage on the github site)
 
 ### Making changes to site CSS
-Most of the base colors and fonts are set in Bootstrap 3.3.4's ```variables.less``` file located in ```assets/bootstrap/less/```.  More info on compiling Bootstrap CSS with Grunt can be found on their [Getting Started page](http://getbootstrap.com/getting-started/#grunt).  Other styles can be found in the ```css/main.css``` directory.
+Site uses Bootstrap 3.3.5 and SCSS.
+
+SCSS files are found in /assets/css. Edit ```_variables.scss``` to override bootstrap defaults.
+You're encouraged to reuse those variables throughout the custom scss files.
 
 ## Site Structure
 

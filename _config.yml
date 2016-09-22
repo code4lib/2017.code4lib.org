@@ -3,3 +3,10 @@ permalink: /:categories/:title
 exclude: [node_modules]
 future: true
 timezone: America/New_York
+sass:
+  load_paths:
+    - assets/css
+gems:
+  - jekyll-bootstrap-sass
+bootstrap:
+  assets: true
