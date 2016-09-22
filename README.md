@@ -32,7 +32,7 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 2. Make sure your master branch is up to date
   * ```git pull origin master```
 3. Start up jekyll
-  * ```bundle exec jekyll serve```
+  * ```jekyll serve```
   * check [http://localhost:4000](http://localhost:4000)
   * make sure that your ```_data/path.yml``` file's content is simply ```'/'```
 4. create a new branch for your changes
@@ -65,8 +65,9 @@ See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org
 ### Making changes to site CSS
 Site uses Bootstrap 3.3.5 and SCSS.
 
-SCSS files are found in /assets/css. Edit ```_variables.scss``` to override bootstrap defaults.
+SCSS partials  are found in /assets/_scss. Edit ```_variables.scss``` to override bootstrap defaults.
 You're encouraged to reuse those variables throughout the custom scss files.
+You should not edit anything in /assets/_scss/bootstrap as this represents the official boostrap-sass files.
 
 ## Site Structure
 
