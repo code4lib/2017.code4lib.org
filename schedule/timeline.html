@@ -19,7 +19,7 @@ categories: Schedule
                 <h2>Keynote Voting</h2>
             </div>
             <div class="col-xs-12 col-sm-5 text-right">
-                <h2><small class="light">TBD</small></h2>
+                <h2><small class="light">SOON!</small></h2>
             </div>
             <!--
             <div class="col-xs-6">
@@ -40,8 +40,10 @@ categories: Schedule
                 <!-- <a href="{{ site.data.path }}/proposed-talks.html">View Proposed Talks</a> -->
             </div>
             <div class="col-xs-12 col-sm-5 text-right">
-                <h2><small class="light">TBD</small></h2>
-                <!--<a class="btn btn-primary btn-lg" href="">Propose a Talk</a>-->
+                <h2><small class="light">Now until Nov. 7<sup>th</sup></small></h2>
+                {% if site.data.conf.toggles.prop-talk == "on" %}
+                <a class="btn btn-primary btn-lg" href="{{ site.data.conf.talk-proposal-form }}">Propose a Talk</a>
+                {% endif %}
             </div>
 
             <!-- Votes -->
@@ -49,7 +51,7 @@ categories: Schedule
                 <h2>Vote for Conference Proposals</h2>
             </div>
             <div class="col-xs-12 col-sm-5 text-right">
-                <h2><small class="light">TBD</small></h2>
+                <h2><small class="light">Nov. 16<sup>th</sup> to Dec. 7<sup>th</sup></small></h2>
                 <!--<a class="btn btn-primary btn-lg" href="">Vote!</a>-->
             </div>
         </div>
