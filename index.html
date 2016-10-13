@@ -13,12 +13,16 @@ title: code4lib - Los Angeles 2017
 
             <!-- Livestream -->
             {% if site.data.conf.toggles.livestream == "on" %}
-            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.livestream-url }}">Watch the livestream </a></p>
+            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a></p>
             {% endif %}
 
             <!-- Register -->
             {% if site.data.conf.toggles.register == "on" %}
             <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.registration-url }}">Register Now!</a></p>
+            {% endif %}
+
+            {% if site.data.conf.toggles.prop-talk == "on" %}
+            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.talk-proposal-form }}">Propose a Talk</a></p>
             {% endif %}
         </div>
     </div>
