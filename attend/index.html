@@ -9,14 +9,14 @@ title: Attend
                 <h1>Attend Code4Lib</h1>
 
                     <h3>Conference</h3>
-                    {% if site.data.conf.toggles.register == "on" %}
+                    {% if site.data.conf.toggles.register %}
                         <a href="{{ site.data.conf.registration-form }}" class="btn btn-lg btn-primary">Register Now!</a>
                     {% else %}
                         <p>Registration is closed.</p>
                     {% endif %}
 
                     <h3>Preconference Workshops</h3>
-                    {% if site.data.conf.toggles.register-shop == "on" %}
+                    {% if site.data.conf.toggles.register-shop %}
                         <a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-registration-form }}">Pre Conf Registration</a></p>
                     {% endif %}
             </div>

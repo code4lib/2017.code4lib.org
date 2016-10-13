@@ -12,17 +12,23 @@ title: code4lib - Los Angeles 2017
             <h2 class="text-right">March 6-9, 2017</h2>
 
             <!-- Livestream -->
-            {% if site.data.conf.toggles.livestream == "on" %}
+            {% if site.data.conf.toggles.livestream %}
             <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.livestream-url }}">Watch the livestream</a></p>
             {% endif %}
 
             <!-- Register -->
-            {% if site.data.conf.toggles.register == "on" %}
+            {% if site.data.conf.toggles.register %}
             <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.registration-url }}">Register Now!</a></p>
             {% endif %}
 
-            {% if site.data.conf.toggles.prop-talk == "on" %}
+            <!-- Talk Proposals -->
+            {% if site.data.conf.toggles.prop-talk %}
             <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.talk-proposal-form }}">Propose a Talk</a></p>
+            {% endif %}
+
+            <!-- Workshop Proposals -->
+            {% if site.data.conf.toggles.prop-shop %}
+            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Workshop</a></p>
             {% endif %}
         </div>
     </div>
