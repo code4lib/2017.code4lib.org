@@ -259,7 +259,7 @@ $dropdown-divider-bg:            $secondary !default;
 //** Dropdown link text color.
 $dropdown-link-color:            $gray-dark !default;
 //** Hover color for dropdown links.
-$dropdown-link-hover-color:      darken($gray-dark, 5%) !default;
+$dropdown-link-hover-color:      $primary-dark !default;
 //** Hover background for dropdown links.
 $dropdown-link-hover-bg:         $accent-light !default;
 
@@ -388,7 +388,7 @@ $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-color:                $primary-lighter !default;
 $navbar-default-link-hover-color:          $accent-light !default;
 $navbar-default-link-hover-bg:             transparent !default;
-$navbar-default-link-active-color:         $accent !default;
+$navbar-default-link-active-color:         $accent-light !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
 $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
