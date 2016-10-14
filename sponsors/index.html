@@ -8,6 +8,20 @@ title: Sponsors
         <div class="cell cell-lg">
             <h1>We ❤ our sponsors.</h1>
 
+            <!-- Diamond -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Diamond Sponsors" badge="diamond" %}
+
+                {% assign diamond = site.data.sponsors | where_exp:"item", "item.level == 'diamond'" %}
+                {% for sponsor in diamond %}
+                <div class="col-xs-12 col-md-6">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
             <!-- Platinum -->
             <div class="row sponsor-row">
                 {% include sponsor_plate.html level="Platinum Sponsors" badge="trophy-badge" %}
@@ -108,13 +122,11 @@ title: Sponsors
 
             <hr/>
             
-            <!-- Hide button until prospectus has been finalized
             <p>Interested in sponsoring Code4Lib 2017?</p>
 
             <p>
                 <a class="btn btn-primary btn-lg" href="/prospectus">View our Prospectus</a>
             </p>
-            -->
 
             <img src="/assets/img/sponsors.jpg" title="Credit schwartzray on Flickr" alt="Code4Lib T-shirt" width="100%">
             <p class="text-right small">
