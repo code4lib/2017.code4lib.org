@@ -4,7 +4,7 @@
 <div class="speaker-box text-center" id="{{speaker.Name | slugify }}-id" data-speaker-info="#{{speaker.Name | slugify }}-info">
     <div class="speaker-box-inner">
         <a href="#" class="speaker-info-toggle" data-target="#{{ speaker.Name | slugify }}">
-            <img class="clip-circle-lg" src="{{ site.data.path }}{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+            <img class="clip-circle-lg" src="/{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
         </a>
         <h4 class="speaker-name"><a href="#" class="speaker-info-toggle" data-target="#{{ speaker.Name | slugify }}">{{ speaker.Name }}</a></h4>
         <div class="speaker-mini">

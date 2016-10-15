@@ -13,8 +13,8 @@
             {% if post.speaker %}
             {% assign speaker = site.data.past-keynotes[post.speaker] %}
             <div class="col-sm-4 hidden-xs text-center">
-                <a href="{{ site.data.path }}speakers/past-keynotes.html#{{ speaker.Name | slugify }}-info" class="speaker-overlay" data-content="{{ speaker.Name }}">
-                    <img class="clip-circle" src="{{ site.data.path }}{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
+                <a href="/speakers/past-keynotes.html#{{ speaker.Name | slugify }}-info" class="speaker-overlay" data-content="{{ speaker.Name }}">
+                    <img class="clip-circle" src="/{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                 </a>
             </div>
             {% endif %}
