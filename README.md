@@ -86,6 +86,8 @@ Where ```<badge-name>``` is one of the following:
 
 The container element (i.e., wrapper of ```<svg>```), should have the style ***position:relative** (allows the svg to scale). Or use bootstrap column classes ```col-xs-*```,```col-sm-*```, etc.
 
+Edit the colors in ```/assets/css/main.scss``` under the **SVGs** header.
+
 ## Site Structure
 
 coming soon...
