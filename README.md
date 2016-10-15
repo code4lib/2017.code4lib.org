@@ -69,9 +69,27 @@ SCSS partials  are found in /assets/_scss. Edit ```_variables.scss``` to overrid
 You're encouraged to reuse those variables throughout the custom scss files.
 You should not edit anything in /assets/_scss/bootstrap as this represents the official boostrap-sass files.
 
+### Sponsor Badges
+Use the following template for sponsor badges:
+
+```
+<svg alt="" width="100%" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <use class="sponsor-badge <add-class>" xlink:href="/assets/img/badges/badges.svg#<badge-name>"></use>
+</svg>
+```
+
+Where ```<badge-name>``` is one of the following:
+* trophy-badge
+* star-badge
+* thumbs-badge
+* medal-badge (with ```<add-class>``` = **gold**, **silver**, or **bronze**)
+
+The container element (i.e., wrapper of ```<svg>```), should have the style ***position:relative** (allows the svg to scale). Or use bootstrap column classes ```col-xs-*```,```col-sm-*```, etc.
+
 ## Site Structure
 
 coming soon...
+
 
 ## Code4Lib Conference Website Workflows
 

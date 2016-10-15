@@ -10,7 +10,7 @@ title: Sponsors
 
             <!-- Platinum -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Platinum Sponsors" badge="platinum" %}
+                {% include sponsor_plate.html level="Platinum Sponsors" badge="trophy-badge" %}
 
                 {% assign platinum = site.data.sponsors | where_exp:"item", "item.level == 'platinum'" %}
                 {% for sponsor in platinum %}
@@ -22,9 +22,23 @@ title: Sponsors
                 {% endfor %}
             </div>
 
+            <!-- Diamond -->
+            <div class="row sponsor-row">
+                {% include sponsor_plate.html level="Diamond Sponsors" badge="diamond-badge" %}
+
+                {% assign diamond = site.data.sponsors | where_exp:"item", "item.level == 'diamond'" %}
+                {% for sponsor in diamond %}
+                <div class="col-xs-12 col-md-6">
+                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
+                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
             <!-- Gold -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Gold Sponsors" badge="gold" %}
+                {% include sponsor_plate.html level="Gold Sponsors" badge="medal-badge" highlight-class="gold" %}
 
                 {% assign gold = site.data.sponsors | where_exp:"item", "item.level == 'gold'" %}
                 {% for sponsor in gold %}
@@ -38,7 +52,7 @@ title: Sponsors
 
             <!-- Silver -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Silver Sponsors" badge="silver" %}
+                {% include sponsor_plate.html level="Silver Sponsors" badge="medal-badge" highlight-class="silver"%}
 
                 {% assign silver = site.data.sponsors | where_exp:"item", "item.level == 'silver'" %}
                 {% for sponsor in silver %}
@@ -52,7 +66,7 @@ title: Sponsors
 
             <!-- Bronze -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Bronze Sponsors" badge="bronze" %}
+                {% include sponsor_plate.html level="Bronze Sponsors" badge="medal-badge" highlight-class="bronze"%}
 
                 {% assign bronze = site.data.sponsors | where_exp:"item", "item.level == 'bronze'" %}
                 {% for sponsor in bronze %}
@@ -66,7 +80,7 @@ title: Sponsors
 
             <!-- Contributors -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Contributors" badge="star" %}
+                {% include sponsor_plate.html level="Contributors" badge="star-badge" %}
 
                 {% assign contributor = site.data.sponsors | where_exp:"item", "item.level == 'contributor'" %}
                 {% for sponsor in contributor %}
@@ -80,7 +94,7 @@ title: Sponsors
 
             <!-- Supporters -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Supporters" badge="thumbs-up" %}
+                {% include sponsor_plate.html level="Supporters" badge="thumbs-badge" %}
 
                 {% assign supporter = site.data.sponsors | where_exp:"item", "item.level == 'supporter'" %}
                 {% for sponsor in supporter %}
