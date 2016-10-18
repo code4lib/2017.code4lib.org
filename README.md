@@ -1,11 +1,11 @@
-# 2016.code4lib.org
+# 2017.code4lib.org
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/C4L-PHL?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Intro
 
-This site was developed by the [Code4Lib 2016 Conference Committee Website Working Group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview
-of the Code4Lib 2016 Annual Conference. A great deal of conference and organizational info can be found on the [Code4Lib Wiki](http://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](http://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
+This site was developed by the [Code4Lib 2017 Conference Committee Website Working Group](http://wiki.code4lib.org/2017_Conference_Committees#Website_Working_Group) based on a design by the [2016 working group](http://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). The site was designed to provide a comprehensive overview
+of the Code4Lib 2017 Annual Conference. A great deal of conference and organizational info can be found on the [Code4Lib Wiki](http://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](http://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
 
 This site was designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](http://jekyllrb.com) and [GitHub Pages](https://pages.github.com).  We also custom build  Bootstrap 3.3.4 from less files for basic site colors and fonts.
 
@@ -16,9 +16,9 @@ This site was designed with future users in mind, so the group chose platforms t
 
 ## Contributing
 
-Steps for contributing have been documented in the [wiki on the site's GitHub page](https://github.com/code4lib/2016.code4lib.org/wiki) and will be updated as needed.
+Steps for contributing have been documented in the [wiki on the 2016 site's GitHub page](https://github.com/code4lib/2016.code4lib.org/wiki) and will be updated as needed.
 
-See a list of [outstanding issues](https://github.com/code4lib/2016.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and used in the commit message.
+See a list of [outstanding issues](https://github.com/code4lib/2017.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and used in the commit message.
 
 ### Setup:
 
@@ -184,6 +184,6 @@ Unzip the resulting file and put contents into ```/_posts```
 
 
 ## Resources
-More details are available in the [GitHub wiki for this page](https://github.com/code4lib/2016.code4lib.org/wiki)
+More details are available in the [GitHub wiki for the 2016 page](https://github.com/code4lib/2016.code4lib.org/wiki)
 
 [Conference Website Working Group wiki page: Working Group Documents](http://wiki.code4lib.org/Website_Working_Group_Documents)
