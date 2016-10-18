@@ -848,3 +848,24 @@ p.speaker-inst{
 #search_results li {
   padding: 1em;
 }
+
+/* ==========================================================================
+   SVGs
+   ========================================================================== */
+.sponsor-badge{
+  --primary-color: #{$accent};
+  --secondary-color: #{$accent-light};
+  --background-color:#fff;
+  --tertiary-color: #{lighten($accent-light, 15%)};
+  --highlight-color:#fff;
+}
+
+.sponsor-badge.gold{
+  --highlight-color: #ffedb3
+}
+.sponsor-badge.silver{
+  --highlight-color: #dedede
+}
+.sponsor-badge.bronze{
+  --highlight-color: #f2c6a5
+}
