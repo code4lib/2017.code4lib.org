@@ -10,7 +10,7 @@ title: Sponsors
 
             <!-- Diamond -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Diamond Sponsors" badge="diamond" %}
+                {% include sponsor_plate.html level="Diamond Sponsors" badge="diamond-badge" %}
 
                 {% assign diamond = site.data.sponsors | where_exp:"item", "item.level == 'diamond'" %}
                 {% for sponsor in diamond %}
@@ -31,20 +31,6 @@ title: Sponsors
                 <div class="col-xs-12 col-md-6">
                     <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
                         <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
-
-            <!-- Diamond -->
-            <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Diamond Sponsors" badge="diamond-badge" %}
-
-                {% assign diamond = site.data.sponsors | where_exp:"item", "item.level == 'diamond'" %}
-                {% for sponsor in diamond %}
-                <div class="col-xs-12 col-md-6">
-                    <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
-                        <img src="{{ site.data.path }}{{ sponsor.img }}" alt="{{ sponsor.name }}">
                     </a>
                 </div>
                 {% endfor %}
@@ -121,7 +107,7 @@ title: Sponsors
             </div>
 
             <hr/>
-            
+
             <p>Interested in sponsoring Code4Lib 2017?</p>
 
             <p>
