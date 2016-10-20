@@ -380,6 +380,10 @@ p {
   margin: 10px;
 }
 
+#contact_inner{
+  margin: 0;
+}
+
 .past-slides {
   font-size: 2em;
   display: block;
@@ -408,10 +412,11 @@ p {
   left: -250px;
   width: 250px;
   padding: 25px;
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
   text-align: left;
   -webkit-border-radius: 0 0 5px 0;
   -moz-border-radius: 0 0 5px 0;
