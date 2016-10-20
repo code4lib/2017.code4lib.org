@@ -1,5 +1,6 @@
 livestream-url: "https://www.youtube.com/user/code4lib"
 talk-proposal-form: "https://goo.gl/forms/GbM0jmSdXFkRdHAr2"
+keynote-voting-link: "https://vote.code4lib.org/election/41"
 workshop-proposal-form: ""
 registration-form: ""
 workshop-registration-form: ""
@@ -12,6 +13,6 @@ toggles:
   prop-shop: false
   vote-shop: false
   vote-talk: false
-  vote-key: false
+  vote-key: true
   register: false
   register-shop: false

@@ -19,14 +19,14 @@ categories: Schedule
                 <h2>Keynote Voting</h2>
             </div>
             <div class="col-xs-12 col-sm-5 text-right">
-                <h2><small class="light">SOON!</small></h2>
+                <h2><small class="light">Now until Oct. 21<sup>st</sup></small></h2>
             </div>
-            {% if site.data.conf.toggles.vote.key %}
+            {% if site.data.conf.toggles.vote-key %}
                 <div class="col-xs-6">
-                    <p><a href="#">View the Nominees</a></p>
+                    <p><a href="https://wiki.code4lib.org/2017_Keynote_Speakers_Nominations">View the Nominees</a></p>
                 </div>
                 <div class="col-xs-6">
-                    <p><a href="#" class="btn btn-primary pull-right">Vote!</a></p>
+                    <p><a href="{{ site.data.conf.keynote-voting-link }}" class="btn btn-primary pull-right">Vote!</a></p>
                 </div>
             {% endif %}
         </div>
