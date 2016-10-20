@@ -10,7 +10,6 @@ categories: Schedule
             <div class="col-xs-12">
                 <h2>What's going on?</h2>
                 <p>Over the next months, we'll be finding our keynote speakers and making the presentation lineup. See below for important dates.</p>
-                <p>In the meantime, take a look at some of the previous years' keynotes.</p>
             </div>
         </div>
         <!-- Keynote -->
@@ -19,14 +18,14 @@ categories: Schedule
                 <h2>Keynote Voting</h2>
             </div>
             <div class="col-xs-12 col-sm-5 text-right">
-                <h2><small class="light">SOON!</small></h2>
+                <h2><small class="light">Now until Oct. 21<sup>st</sup></small></h2>
             </div>
-            {% if site.data.conf.toggles.vote.key %}
+            {% if site.data.conf.toggles.vote-key %}
                 <div class="col-xs-6">
-                    <p><a href="#">View the Nominees</a></p>
+                    <p><a href="https://wiki.code4lib.org/2017_Keynote_Speakers_Nominations">View the Nominees</a></p>
                 </div>
                 <div class="col-xs-6">
-                    <p><a href="#" class="btn btn-primary pull-right">Vote!</a></p>
+                    <p><a href="{{ site.data.conf.keynote-voting-link }}" class="btn btn-primary pull-right">Vote!</a></p>
                 </div>
             {% endif %}
         </div>
@@ -69,9 +68,9 @@ categories: Schedule
                 <!-- <a href="//proposed-workshops.html">View Proposed Workshops</a> -->
             </div>
             <div class="col-xs-12 col-sm-5 text-right">
-                <h2><small class="light">TBD</small></h2>
+                <h2><small class="light">Now until Dec. 8<sup>th</sup></small></h2>
                 {% if site.data.conf.toggles.prop-shop %}
-                <a class="btn btn-primary btn-lg" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Wqrkshop</a>
+                <a class="btn btn-primary btn-lg" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Workshop</a>
                 {% endif %}
             </div>
 
