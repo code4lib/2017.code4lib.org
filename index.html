@@ -21,15 +21,16 @@ title: code4lib - Los Angeles 2017
             <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.registration-url }}">Register Now!</a></p>
             {% endif %}
 
-            <!-- Talk Proposals -->
-            {% if site.data.conf.toggles.prop-talk %}
-            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.talk-proposal-form }}">Propose a Talk</a></p>
-            {% endif %}
-
-            <!-- Workshop Proposals -->
-            {% if site.data.conf.toggles.prop-shop %}
-            <p class="text-right"><a class="btn btn-lg btn-primary" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Workshop</a></p>
-            {% endif %}
+            <!-- Preconference events -->
+            <div class="text-right">
+                <a class="btn btn-lg btn-primary" href="/schedule/timeline.html">What's Going On?</a>
+                <ul class="list-unstyled">
+                    <li>Keynote Voting</li>
+                    <li>Talk Proposals</li>
+                    <li>Workshop Proposals</li>
+                    <li>Sponsorship</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
