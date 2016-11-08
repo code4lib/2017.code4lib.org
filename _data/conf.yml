@@ -11,7 +11,7 @@ workshop-registration-form: ""
 toggles:
   search: false
   livestream: false
-  prop-talk: true
+  prop-talk: false
   prop-shop: true
   prop-shirt: true
   vote-shop: false
