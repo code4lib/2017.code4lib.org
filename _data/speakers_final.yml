@@ -1,11 +1,25 @@
-# 3518211291:
-  # Name: Daniel Aitken
-  # Bio: |
-    # Daniel has been working for discoverygarden since 2013, and was dubbed "QA Dan" early on due to an organizational overload of Dans at that time. Since then, he's gone on to shore up the automated testing and delivery of Islandora components, quality check more pieces of the Islandora framework than he can actually remember, and now works fully on the development side of the project. He keeps the moniker, though, as it would be too much of a hassle to change his twitter handle and GitHub credentials over at this point.
-  # Email: 3518211291
-  # Twitter-Handle: itsqadan
-  # Work-Title: Developer
-  # Institution: discoverygarden, inc
-  # Image-URL: /assets/img/speakers/nopic11.jpg
-  # Keynote: 0
-  # Show: 1
+andreas-orphanides:
+  Name: Andreas "Dre" Orphanides
+  Last: Orphanides
+  Bio: |
+    Dre is the Associate Head of User Experience at NCSU. He is also a long time participating Code4Lib community member. He is one of the co-founders of the beloved Code4Lib workshop, Fail4Lib, which created an inclusive and safe space to talk about project failures and generate constructive conversation around the failures. He's given brilliant and thoughtful talks on user experience and system design.
+  Email: akorphan@ncsu.edu
+  # Twitter-Handle: ???
+  Work-Title: Associate Head, User Experience
+  Institution: NC State University Libraries
+  Image-URL: assets/img/speakers/orphanides.jpg
+  Keynote: 1
+  Show: 1
+
+christina-harlow:
+  Name: Christina Harlow
+  Last: Harlow
+  Bio: |
+    Christina is not a consortium of people (I know, I've thought that also). She is a brilliant technologist who works at Cornell University beating data into submission. When she isn't doing that (here's why you've thought her twitter account is a consortium) she is talking about the aforementioned data to likeminded people all while managing to run brilliant conferences. Her ability to describe data munging to "non-natives" is something the entire code4lib community should experience, not just the few who've managed to sit in on her workshops, follow her on Twitter etc., Her generosity has likely impacted many in the code4lib community directly or indirectly.
+  Email: cmh329@cornell.edu
+  Twitter-Handle: cm_harlow
+  Work-Title: Metadata Librarian
+  Institution: Cornell University Library
+  Image-URL: assets/img/speakers/harlow.jpg
+  Keynote: 1
+  Show: 1

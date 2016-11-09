@@ -22,6 +22,7 @@ title: Speakers
         </div>
     </div>
 </div>
+<!--
 <div class="row section">
     <div class="cell cell-lg">
         <div class="row">
@@ -32,7 +33,7 @@ title: Speakers
         <div class="row">
             <div class="col-xs-12 speaker-sequence sequence">
             {% for person in site.data.speakers_final %}
-                {% assign speaker = person[1] | sort: "Last" %}
+                {% assign speaker = person[1] %}
                     {% if speaker.Keynote == 0 and speaker.Show == 1%}
                         {% include speaker_box.html param=speaker %}
                     {% endif %}
@@ -41,3 +42,4 @@ title: Speakers
         </div>
     </div>
 </div>
+-->
