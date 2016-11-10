@@ -376,21 +376,6 @@ Unlike many Library Linked-Data events, this preconference's hands-on focus is t
   fourth-facilitators-name:
   fifth-facilitators-name:
 
-- timestamp: 08112016-105821
-  preconference-title: "Building Applications and Microservices using RDF"
-  lengthtime-of-day-for-preconference: Half day, no preference for time
-  abstract: "Building applications and microservices using the power and flexibility of Linked Data through RDF triplestores present libraries and cultural heritage institutions an incredible opportunity to grow and manage extensible knowledge graphs for their patrons, institutions, and communities. Participants will be presented with these three examples of RDF-based applications and services that use bibliographic and organizational information modeled in BIBFRAME 2.0 and Schema.org RDF triples:
-      1.  Colorado College Senior Thesis Self-Submission Application (https://github.com/Tutt-Library/ccetd.git) - This application allows seniors at Colorado College to self-submit their thesis along with any accompanying datasets, video, or audio to Colorado College's Fedora-based institutional repository. Modeling the institutional, departmental, and faculty relationships as RDF Schema.org linked-data for this application provided the additional benefit of being the genesis of Colorado College's more general knowledge graphs for other uses instead of being isolated in an application silo.
-    2. The Colorado Alliance of Research Libraries BIBCAT Pilot (https://github.com/KnowledgeLinks/alliance-bibcat.git) - Using selected MARC 21 records from Colorado College and the University of Colorado Boulder that were generated from the Alliance's Gold Rush comparison service, this project uses the BIBCAT -short for bibliographic catalog- an open-source project originally funded by a contract for the Library of Congress to transform MARC 21 into BIBFRAME that is then published to the web as Schema.org JSON-LD for indexing by Google, Bing, and other search engines. BIBCAT uses RDF rules that map MARC 21 fields and subfields to BIBFRAME 2.0 entities and properties.
-    3. DP.LA Service Hub for Colorado and Wyoming (https://github.com/KnowledgeLinks/dpla-service-hub.git) - A State Library of Colorado sponsored effort to aggregrate the metadata from across different libraries and museums in Colorado and Wyoming and provide a JSON-LD DPLA Map v4  feed to DP.LA. This project uses BIBCAT to transform different formats and vocabularies from multiple sources including Denver Public Library's RDF Dublin Core, Colorado College and University of Wyoming MODS metadata, and a metadata provided as custom CSV file from the History Colorado museum into BIBFRAME 2.0 entities stored in a triplestore. BIBCAT uses RDF-based rules to ingest these sources while allowing for easy customization and modification through simple editing of RDF turtle file.
-
-Unlike many Library Linked-Data events, this preconference's hands-on focus is to help participants start their own development of RDF applications and micro-services. While the focus will be partipatants on writing their own RDF rules using Turtle for manipulating their own metadata, participants will also be introduced to the underlying open-source Python and Haskell code used in the RDF Framework platform."
-  primary-facilitators-name: Jeremy Nelson
-  second-facilitators-name:
-  third-facilitators-name:
-  fourth-facilitators-name:
-  fifth-facilitators-name:
-
 - timestamp: 08112016-110921
   preconference-title: "Gamification of Library Orientation and Instruction"
   lengthtime-of-day-for-preconference: All day
@@ -401,6 +386,164 @@ This proposal envisions half a day activities for participants to study the oppo
 "
   primary-facilitators-name: Plamen Miltenoff
   second-facilitators-name: Mark Gill
+  third-facilitators-name:
+  fourth-facilitators-name:
+  fifth-facilitators-name:
+
+- timestamp: 08112016-142459
+  preconference-title: "Getting Started with Ansible and Serverspec"
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "Provisioning a server by hand is an onerous job, but it's one most library developers have done. And you've certainly heard that there are tools to help you manage this task in a more organized fashion.
+
+This workshop will walk you through how to use Ansible [1], one such tool, to set up a new service on a new machine. The focus will be on hands-on learning, walking through the common mistakes one can make when using Ansible. You'll gain a confidence in the tool, and learn that the error messages Ansible returns are actually useful in finding those mistakes.
+
+You will quickly discover that using Ansible is pretty similar to what you've previously done by hand. You may even have shell scripts written to help you with provisioning; those existing scripts can easily be modified to work with Ansible.
+
+We will also make use of Serverspec [2], a tool which allows you to characterize the services running on an existing server, and then use this specification to test and verify the results of your efforts with Ansible.
+
+Audience: developers, with some operations experience.
+
+Requirements: participants should bring a notebook computer on which they have admin privileges. Ideally, participants should already have installed VirtualBox [3], Vagrant [4], and Git [5].
+
+Acknowledgements: The curriculum for this workshop was originally developed by Alicia Cozine, of Data Curation Experts.
+
+[1] https://www.ansible.com/
+[2] http://serverspec.org/
+[3] http://www.virtualbox.org/
+[4] http://www.vagrantup.com/
+[5] http://git-scm.com/"
+  primary-facilitators-name: Hardy Pottinger
+  second-facilitators-name: Anthony Vuong
+  third-facilitators-name: Alicia Cozine
+  fourth-facilitators-name: Francis Kayiwa
+  fifth-facilitators-name:
+
+- timestamp: 08112016-161709
+  preconference-title: "Modeling Concepts in Linked Data RDF"
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "How does your library exist in the Linked Data world? Is it a foaf:Organization, a schema:Organization, org:Organization, etc? Once you've decided that, what properties does your library have? For example, is it called by an rdfs:label, or skos:prefLabel, or dcterms:title, or something else entirely?
+
+These questions don't have a single correct answer, and therein lies the challenge of modeling data in RDF. Whether it's descriptive metadata, digital object relationships, or places, people, and things, you need to understand the options for mapping data and the pros and cons each mapping brings. This workshop will not be a presentation, but a collaboration: we are relying on attendees to provide concepts they've struggled to map in the Linked Data world. We would then go through the process of discussing as a group how to map those concepts and see if we can come to agreement as to the best approach(es).
+
+Ideally the end result of this workshop will be more uniform linked data and more standardized practices shared between organization. Because while one can map anything into RDF, the real challenge is doing it in a way that others outside of your institution will be able to make sense of."
+  primary-facilitators-name: Steven Carl Anderson
+  second-facilitators-name: Eben English
+  third-facilitators-name:
+  fourth-facilitators-name:
+  fifth-facilitators-name:
+
+- timestamp: 08112016-162641
+  preconference-title: "Data Modelling & RDF in Drupal 8"
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "This is a hands-on workshop to explore Drupal 8, the next generation of Drupal that uses RDF as part of its core and is a part of the technology stack for Islandora CLAW. While this version offers native support for schema.org, there are many possibilities that can allow site builders and developers to extend the use of linked data in Drupal 8.
+
+We'll cover:
+- Working with RDF in Drupal 8 out of the box
+- Consuming and displaying RDF data using SPARQL/Linked Open Data endpoints
+- Creating content types and resources based on schema.org, testing with RDFa tools
+- Exploring the possibilities of semantic data modelling with Drupal 8 with the RDF Mapping API"
+  primary-facilitators-name: Natkeeran Ledchumykanthan
+  second-facilitators-name: Kim Pham
+  third-facilitators-name: Kirsta Stapelfeldt
+  fourth-facilitators-name: Marcus Barnes
+  fifth-facilitators-name:
+
+- timestamp: 08112016-165541
+  preconference-title: "Digital Projects Basic Technical Skills Bootcamp"
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "Are you or someone you know new to digital or software projects in the library or humanities?
+Would you like to learn the common skill sets that are in demand for practitioners of digital projects?
+Do you want to contribute or try out some of the cool new DL and DH applications out there?
+
+This workshop is for those new to the Digital Library or Humanities and seeking to sift through some of the common tools used by those in the field. The vast number of projects can be intimidating and the technology choices can feel endless.
+
+In this workshop we will go over some of the basic skills useful to participate in a digital project, common technologies, and popular software used.
+
+Participants will come away with a better understanding of some of the foundational skills used for digital projects in the library.
+
+Topics covered include:
+
+Command line basics
+Version control, git and github
+SSH and security keys
+Regular expressions
+Common data transfer types such as json and xml
+Basic data manipulation tools
+
+Skill level: Beginner
+No programming knowledge is assumed"
+  primary-facilitators-name: Kristian Allen
+  second-facilitators-name:
+  third-facilitators-name:
+  fourth-facilitators-name:
+  fifth-facilitators-name:
+
+- timestamp: 08112016-173900
+  preconference-title: "Natural Language Processing with Python: Getting Started"
+  lengthtime-of-day-for-preconference: Half day, PM
+  abstract: "Wherever there is text data, the need to parse, classify, and extract information may arise.  There exist two easy-to-use and battle-tested tools for Pythonistas to tackle text processing: NLTK and spaCy.  We’ll lead participants step by step through common NLP tasks using sample text data or their own text data.  We argue that classification is at the heart of most useful applications of NLP and that recognizing this key insight is the foundation for pulling meaning out of a sea of characters."
+  primary-facilitators-name: Nathan Lomeli
+  second-facilitators-name: Joshua Gomez
+  third-facilitators-name:
+  fourth-facilitators-name:
+  fifth-facilitators-name:
+
+- timestamp: 08112016-180459
+  preconference-title: "Islandora in the Wild: Training and Resources from Pilot and Production Repository Projects "
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "Islandora is an open source digital repository framework used to preserve and expose special collections, scholarly publications and research data. It combines the Drupal CMS and Fedora Commons repository software, together with additional open source applications. The framework delivers a wide range of functionality out-of-the-box and offers the flexibility of customization to meet emerging functional requirements.
+
+This Islandora workshop will explore multiple uses and implementations of Islandora by community members such as Betsy Coles from the California Institute of Technology (Caltech), Zach Vowel of the California Polytechnic State University (Calpoly), Aaron Krebeck of the Washington Research Library Consortium (WRLC), and others. They will describe their digital projects, how Islandora was utilized, overall experience, and top takeaways.
+
+The workshop will cover topics such as:
+- Single site and Consortial Repositories (governance, management, sustainability)
+- Metadata Wrangling (pre-processing, batch updating and XML forms)
+- Content Modelling Advancements (EADs, TEI, and more)
+- Batch Ingesting Content (via Drupal UI and Drush shell scripts)
+- Discovery & Harvesting (Solr, Search Engines, DPLA and more)
+
+All examples will be taken from both pilot and production repositories. Users will leave with an understanding of the Islandora software framework and community, the underpinnings of Islandora content modelling and metadata requirements, the ability to batch ingest content, and the knowledge of how to expose repository content to search engines and aggregators for discovery and re-use.  We look forward to seeing you there! "
+  primary-facilitators-name: Erin Tripp
+  second-facilitators-name: Betsy Coles
+  third-facilitators-name: Zach Vowel
+  fourth-facilitators-name: Aaron Krebeck
+  fifth-facilitators-name:
+
+- timestamp: 08112016-181817
+  preconference-title: "Web Accessibility: Becoming a Stronger Advocate"
+  lengthtime-of-day-for-preconference: Half day, AM
+  abstract: "Libraries must ensure that users of all abilities can successfully use the technologies we provide. Despite the many ethical and legal motivations, not all of our technologies meet accessibility standards. Ultimately, the responsibility for making technologies accessible falls to the developers and vendors, but it is the responsibility of library staff to facilitate accessibility of information to all patrons, regardless of ability. Advocacy from library staff of all levels and duties is crucial for ensuring that access for persons of differing abilities is a mandatory priority in library technology services.
+
+This workshop is about providing library workers of all technical backgrounds with a foundation of  knowledge and skills to begin actively advocate for conformance to accessibility standards. Attendees will learn of key topics in accessibility: different ability types, types of assistive technologies, legislation and standards, and related issues of usability and respect. Although emphasis will not be placed on the finer details of implementing accessible design, relevant technologies and practices such as ARIA, screen readers, etc. will be covered. Heuristics and other simple independent accessibility testing practices will be taught and experienced through interactive exercises. Attendees will also gain practice in how to successfully converse with vendors and developers about accessibility. By the end of the workshop, attendees will have a formidable toolkit of vocabulary, methods, and additional resources enable them to begin and grow their advocacy for equal access for all persons of differing abilities in their libraries and institutions.
+
+This workshop is targeted at people new to web accessibility but also to anyone wanting to learn more. A survey sent prior to the conference will help determine the topics and depth to be covered. Some experience with HTML is desired but not required.
+"
+  primary-facilitators-name: Katherine Deibel
+  second-facilitators-name: Jenn Dandle
+  third-facilitators-name:
+  fourth-facilitators-name:
+  fifth-facilitators-name:
+
+- timestamp: 09112016-102459
+  preconference-title: "5 Tips for Developers Creating Applications using APIs"
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "Heard about APIs but don’t know where to start building something? Created an application using an API but don’t feel like it’s ready to share with others? This workshop will provide tips for how to identify and successfully incorporate APIs into a sharable application in a scalable fashion. We'll cover the basic principles, concepts and tools for interacting with APIs from authentication with OAuth to REST API patterns. Then we'll look at the coding techniques for making an API driven application sharable and scaleable. We’ll look at strategies for identifying and storing application configuration information; examine how to write tests for application and API interactions so you can be confident of the quality of your code and discuss techniques for ensuring that your application can be debugged in the event of a failure in the API. Lastly, we’ll talk about how manager community feedback and contributions to the applications.
+"
+  primary-facilitators-name: Karen Coombs
+  second-facilitators-name:
+  third-facilitators-name:
+  fourth-facilitators-name:
+  fifth-facilitators-name:
+
+- timestamp: 09112016-102459
+  preconference-title: "Getting started with IIIF"
+  lengthtime-of-day-for-preconference: Half day, no preference for time
+  abstract: "The International Image Interoperability Framework (IIIF) is set of technical specifications built around shared challenges in cultural heritage access. Many institutions have scanned large portions of their collections, producing a large body of high-quality images. To provide access to these images and supporting structure and information, IIIF describes an interoperable delivery and interface description method that has been used to address access and reuse of images at many of the world’s largest national and university research libraries, museums, archives, and galleries. A large and growing ecosystem of interoperable software has developed to support each step of image delivery and user experience. This workshop will provide an overview of the IIIF specifications and available software, hands-on training installing IIIF client and server software, and a question and answer session to address your institution’s use cases.
+
+
+Workshop attendees do not need any prior experience with IIIF and all are welcome."
+  primary-facilitators-name: Jack Reed
+  second-facilitators-name: Drew Winget
   third-facilitators-name:
   fourth-facilitators-name:
   fifth-facilitators-name:
