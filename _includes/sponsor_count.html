@@ -1,0 +1,12 @@
+{% assign sponsor_count = site.data.sponsors | where:"target", include.target | size%}
+{% assign sponsor_max = site.data.targeted_sponsors[include.target] %}
+{% assign left = sponsor_max = sponsor_count %}
+
+{% if include.target == 'scholarship' %}
+    Seeking at least 15 sponsorships. {{ sponsor_count }} so far.
+{% elsif include.target == 'diamond' || 'table' %}
+    {{ sponsor_max }} available, <span class="text-danger">{{ left }} left</span>
+{% else %}
+    {{ sponsor_max }} available @ ${{ include.cost }}, <span class="text-danger">{{ left }} left</span>
+{% endif %}
+

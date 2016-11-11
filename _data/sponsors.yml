@@ -6,11 +6,14 @@
 # - contributor
 # - supporter
 
+# Available Targets are managed in targeted_sponsors.yml
+
 # Example
 # - name: ebsco
   # img: assets/img/sponsors/ebsco.png
   # link: http://www.google.com
   # level: platinum
+  # target: tables
 
 - name: JetBrains
   img: assets/img/sponsors/logo_JetBrains_2.svg

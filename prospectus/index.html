@@ -99,7 +99,7 @@ title: Sponsorship Prospectus
                             <use class="sponsor-badge" xlink:href="/assets/img/badges/badges.svg#diamond-badge"></use>
                         </svg>
                         <h3>Diamond</h3>
-                        <p><b>1 available, <span class="text-danger">1 left</span></b></p>
+                        <p>{% include sponsor_count.html target="diamond" %}</p>
                         <p><b>$10,000 and above</b></p>
                         <ul>
                           <li>Large logo or Name on website and online program as Diamond Sponsor with top placement</li>
@@ -236,7 +236,7 @@ title: Sponsorship Prospectus
                         <b>Non-profit organization: $500</b><br/>
                         <b>For-profit organization with 10 or fewer FTEs: $750</b><br/>
                         <b>For-profit organization with more than 10 FTEs: $1,250</b><br/>
-                        <b>6 available, <span class="text-danger">6 left</span></b><br/>
+                        <b>{% include sponsor_count.html target="table" %}</b><br/>
 
                         <p>
                             Tables located just outside the main ballroom provide organizations, projects, and vendors
@@ -257,7 +257,7 @@ title: Sponsorship Prospectus
                     <div class="thumbnail">
                         <a name="Reception"></a>
                         <h3>Main Reception</h3>
-                        <b>2 available @ $8,000, <span class="text-danger">2 left</span> </b><br/>
+                        <b>{% include sponsor_count.html target="reception" cost="8,000" %} </b><br/>
                         <p>
                             Tuesday night reception at a local institution.  Sponsorship provides food and drinks while attendees
                             socialize and network. Benefits include:
@@ -275,9 +275,9 @@ title: Sponsorship Prospectus
                     <div class="thumbnail">
                         <a name="Food-Breaks"></a>
                         <h3>Breakfast, Lunch, and Breaks</h3>
-                        <b>Lunch : 2 Available @ $7,500, <span class="text-danger">2 left</span> </b><br/>
-                        <b>Breakfast : 3 Available @ $5,000, <span class="text-danger">3 left</span> </b><br/>
-                        <b>Breaks : 4 Available @ $1,500, <span class="text-danger">4 left</span> </b><br/>
+                        <b>Lunch : {% include sponsor_count.html target="lunch" cost="7,500" %} </b><br/>
+                        <b>Breakfast : {% include sponsor_count.html target="breakfast" cost="5,000" %} </b><br/>
+                        <b>Breaks : {% include sponsor_count.html target="break" cost="1,500" %} </b><br/>
                         <p>
                             Help keep our attendees fed, hydrated and caffeinated with a diverse range of good
                             food and beverages to keep the conference energy levels going strong. Sponsor benefits include:
@@ -315,7 +315,7 @@ title: Sponsorship Prospectus
                     <div class="thumbnail">
                         <a name="Streaming-Video"></a>
                         <h3>Streaming Video</h3>
-                        <b> 1 available @ $5,500 <span class="text-danger">1 left</span></b>
+                        <b>{% include sponsor_count.html target="streaming" cost="5,500" %} </b>
                         <p>
                             A live webcast and recording of the Code4lib Conference is provided to ensure the entire community
                             can participate. Sponsor benefits will include:
@@ -335,7 +335,7 @@ title: Sponsorship Prospectus
                         <h3>Diversity Scholarships</h3>
 
                         <b>$1,200</b><br/>
-                        <b>Seeking at least 15 sponsorships</b><br/>
+                        <b>{% include sponsor_count.html target="scholarship" %}</b><br/>
                         <p>
                             These scholarships provide travel costs and conference fees for qualified applicants from
                             groups typically underrepresented at the conference, including women, transgender people,
@@ -357,7 +357,7 @@ title: Sponsorship Prospectus
                     <div class="thumbnail">
                         <a name="Realtime-Transcription"></a>
                         <h3>Real-time Transcription and Closed Captioning of Talks</h3>
-                        <b>1 available @ $2,000, <span class="text-danger">0 left</span> </b><br/>
+                        <b>{% include sponsor_count.html target="transcription" cost="2,000" %} </b><br/>
                         <p>
                             To facilitate universal participation and access to conference content, real-time live
                             transcription and closed captioning of all presentations, lightning talks, and announcements
@@ -376,7 +376,7 @@ title: Sponsorship Prospectus
                     <div class="thumbnail">
                         <a name="Childcare"></a>
                         <h3>Childcare</h3>
-                        <b>2 available @ $2,500, <span class="text-danger">2 left</span></b><br/>
+                        <b>{% include sponsor_count.html target="childcare" cost="2,500" %} </b><br/>
                         <p>
                             On-site childcare is provided at the Code4lib Conference to make it possible for working
                             parents and guardians to attend and fully participate. This sponsorship helps to offset the cost of
