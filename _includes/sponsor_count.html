@@ -4,7 +4,7 @@
 
 {% if include.target == 'scholarship' %}
     Seeking at least 15 sponsorships. {{ sponsor_count }} so far.
-{% elsif include.target == 'diamond' || 'table' %}
+{% elsif include.target == 'diamond' or 'table' %}
     {{ sponsor_max }} available, <span class="text-danger">{{ left }} left</span>
 {% else %}
     {{ sponsor_max }} available @ ${{ include.cost }}, <span class="text-danger">{{ left }} left</span>
