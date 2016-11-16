@@ -1,8 +1,13 @@
 livestream-url: "https://www.youtube.com/user/code4lib"
 talk-proposal-form: "https://goo.gl/forms/GbM0jmSdXFkRdHAr2"
+talk-voting-link: "http://vote.code4lib.org/election/42"
+panel-voting-link: "http://vote.code4lib.org/election/43"
+panel-proposal-form: "https://goo.gl/forms/q2KbVcO4ntkh6bPp1"
 keynote-voting-link: "https://vote.code4lib.org/election/41"
 workshop-proposal-form: "http://bit.ly/c4l17preconf"
+workshop-voting-link: "http://bit.ly/c4l17preconfvote"
 shirt-proposal-form: "http://wiki.code4lib.org/2017_Code4Lib_T-Shirt_Design_Competition"
+shirt-voting-link: ""
 registration-form: ""
 workshop-registration-form: ""
 
@@ -10,11 +15,12 @@ workshop-registration-form: ""
 toggles:
   search: false
   livestream: false
-  prop-talk: true
-  prop-shop: true
+  prop-talk: false
+  prop-shop: false
   prop-shirt: true
-  vote-shop: false
-  vote-talk: false
+  vote-shop: true
+  vote-talk: true
+  vote-panels: true
   vote-key: false
   vote-shirt: false
   register: false

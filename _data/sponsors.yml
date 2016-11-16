@@ -11,3 +11,8 @@
   # img: assets/img/sponsors/ebsco.png
   # link: http://www.google.com
   # level: platinum
+
+- name: JetBrains
+  img: assets/img/sponsors/logo_JetBrains_2.svg
+  link: https://www.jetbrains.com/
+  level: supporter

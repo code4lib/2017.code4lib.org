@@ -25,9 +25,32 @@ title: code4lib - Los Angeles 2017
             <div class="text-right">
                 <a class="btn btn-lg btn-primary" href="/schedule/timeline.html">What's Going On?</a>
                 <ul class="list-unstyled">
-                    <li>Talk Proposals</li>
-                    <li>Workshop Proposals</li>
-                    <li>T-shirt Logo Proposals</li>
+
+                    {% if site.data.conf.toggles.prop-talk %}
+                        <li>Talk Proposals</li>
+                    {% endif %}
+                    {% if site.data.conf.toggles.vote-talk %}
+                        <li><a href="{{ site.data.conf.talk-voting-link }}">Vote for Talks</a></li>
+                    {% endif %}
+
+                    {% if site.data.conf.toggles.vote-panels %}
+                        <li><a href="{{ site.data.conf.panel-voting-link }}">Vote for Panels</a></li>
+                    {% endif %}
+
+                    {% if site.data.conf.toggles.prop-shop %}
+                        <li>Workshop Proposals</li>
+                    {% endif %}
+                    {% if site.data.conf.toggles.vote-shop %}
+                        <li>Vote for Workshops</li>
+                    {% endif %}
+
+                    {% if site.data.conf.toggles.prop-shirt %}
+                        <li>T-shirt Logo Proposals</li>
+                    {% endif %}
+                    {% if site.data.conf.toggles.vote-shirt %}
+                        <li>Vote for T-shirt Designs</li>
+                    {% endif %}
+
                     <li>Sponsorship</li>
                 </ul>
             </div>
