@@ -1,7 +1,7 @@
 livestream-url: "https://www.youtube.com/user/code4lib"
 talk-proposal-form: "https://goo.gl/forms/GbM0jmSdXFkRdHAr2"
-talk-voting-link: ""
-panel-voting-link: ""
+talk-voting-link: "http://vote.code4lib.org/election/42"
+panel-voting-link: "http://vote.code4lib.org/election/43"
 panel-proposal-form: "https://goo.gl/forms/q2KbVcO4ntkh6bPp1"
 keynote-voting-link: "https://vote.code4lib.org/election/41"
 workshop-proposal-form: "http://bit.ly/c4l17preconf"
@@ -19,8 +19,8 @@ toggles:
   prop-shop: false
   prop-shirt: true
   vote-shop: true
-  vote-talk: false
-  vote-panels: false
+  vote-talk: true
+  vote-panels: true
   vote-key: false
   vote-shirt: false
   register: false
