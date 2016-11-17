@@ -874,3 +874,18 @@ p.speaker-inst{
 .sponsor-badge.bronze{
   --highlight-color: #f2c6a5
 }
+
+/* =========================================================================
+   improved contrast for links in the photo banner on index page 
+   ========================================================================== */
+/* purposefully complex selector to avoid side effects - metageeky */
+div#main.jumbotron div.text-right ul.list-unstyled li {
+  color: #ddd;
+  font-style:italic;
+}
+
+div#main.jumbotron div.text-right ul.list-unstyled li a {
+  color: #F0FF80;
+  font-style: normal;
+  font-weight: bold;
+}
