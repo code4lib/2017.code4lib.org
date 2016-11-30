@@ -1,4 +1,5 @@
 # Available Levels
+# - diamond
 # - platinum
 # - gold
 # - silver
@@ -12,7 +13,58 @@
   # link: http://www.google.com
   # level: platinum
 
+# if img is omitted, the name will be displayed instead.
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
 - name: JetBrains
   img: assets/img/sponsors/logo_JetBrains_2.svg
   link: https://www.jetbrains.com/
   level: supporter
+
+- name: Blacklight
+  img: assets/img/sponsors/blacklight-logo-vectorized.svg
+  link: http://projectblacklight.org/
+  level: diamond
+
+- name: EBSCO
+  link: https://www.ebsco.com/
+  level: platinum
+
+- name: OCLC
+  link: http://www.oclc.org/
+  level: platinum
+
+- name: Basalmiq 
+  img: assets/img/sponsors/balsamiq-logo-noborder-screen.png
+  link: https://balsamiq.com/
+  level: bronze
+
+- name: ByWater Solutions
+  img: assets/img/sponsors/ByWater_Solutions_logo_No_White.png
+  link: http://bywatersolutions.com/
+  level: bronze
+
+- name: Library Freedom Project
+  img: assets/img/sponsors/LFP small sticker.png
+  link: https://libraryfreedomproject.org/
+  level: contributor
+
+- name: Simmons School of Library and Information Science
+  img: assets/img/sponsors/Combined_SLIS_SimmonsBlue_White_Uncoated.jpg
+  link: http://www.simmons.edu/academics/schools/school-of-library-and-information-science
+  level: contributor
+
+- name: Drexel University Libraries
+  link: https://www.library.drexel.edu/
+  level: contributor
+
+- name: Ex Libris
+  link: http://www.exlibrisgroup.com/
+  level: bronze
+  annotation: Break
+
+- name: Harvard University Libraries
+  link: http://library.harvard.edu/
+  level: bronze
+  annotation: Closed Captioning
