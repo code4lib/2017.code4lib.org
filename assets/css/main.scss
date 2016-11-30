@@ -133,6 +133,15 @@ p {
   font-size: 3.5em;
 }
 
+.sponsor-name-only {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.sponsor-annotation {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
 #targetedSponsorship .row:nth-child(even) .thumbnail {
   background-color: lighten($accent-light, 30%);
 }
