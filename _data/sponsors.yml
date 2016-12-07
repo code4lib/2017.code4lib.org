@@ -32,6 +32,7 @@
   level: platinum
 
 - name: OCLC
+  img: assets/img/sponsors/OCLC_Logo_H_Color_NoTag.png
   link: http://www.oclc.org/
   level: platinum
 
@@ -68,3 +69,20 @@
   link: http://library.harvard.edu/
   level: bronze
   annotation: Closed Captioning
+
+- name: University of Illinois - Urbana-Champaign, School of Information Science
+  link: https://ischool.illinois.edu/
+  level: bronze
+  img: assets/img/sponsors/iSchoolwordmark_Imark.png
+
+- name: University of Arizona Libraries
+  link: http://new.library.arizona.edu/
+  level: bronze
+
+- name: University of California, San Diego Library
+  link: https://library.ucsd.edu/
+  level: bronze
+
+- name: University of California, Berkeley Library
+  link: http://www.lib.berkeley.edu/
+  level: contributor
