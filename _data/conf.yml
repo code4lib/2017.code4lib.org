@@ -19,8 +19,8 @@ toggles:
   prop-shop: false
   prop-shirt: true
   vote-shop: false
-  vote-talk: true
-  vote-panels: true
+  vote-talk: false
+  vote-panels: false
   vote-key: false
   vote-shirt: false
   register: false
