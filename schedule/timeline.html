@@ -91,6 +91,13 @@ categories: Schedule
                 <h2 style="border-bottom:1px solid; padding-bottom:5px;">Proposals</h2>
             </div>
 
+            <!-- T-shirts -->
+            {% if site.data.conf.toggles.prop-shirt %}
+                <div class="col-xs-12 col-sm-7">
+                    <h3>T-shirt Logos</h3>                <a href="https://wiki.code4lib.org/2017_Code4Lib_T-Shirt_Design_Competition">View the logo submissions</a>
+                </div>
+            {% endif %}
+
             <!-- Talks -->
             {% if site.data.conf.toggles.prop-talk %}
                 <div class="col-xs-12 col-sm-7">
@@ -113,13 +120,6 @@ categories: Schedule
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Now until Nov. 8<sup>th</sup></small></h3>
                     <a class="btn btn-primary" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Workshop</a>
-                </div>
-            {% endif %}
-
-            <!-- T-shirts -->
-            {% if site.data.conf.toggles.prop-shirt %}
-                <div class="col-xs-12 col-sm-7">
-                    <h3>T-shirt Logos</h3>
                 </div>
             {% endif %}
 
