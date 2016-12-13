@@ -14,6 +14,29 @@ categories: Schedule
             </div>
         </div>
 
+        <!-- register/attend -->
+        {% if site.data.conf.toggles.register %}
+        <div class="row">
+                <div class="col-xs-12">
+                    <h2 style="border-bottom:1px solid; padding-bottom:5px;">Attend Code4Lib 2017!</h2>
+                </div>
+                <div class="col-xs-12 col-sm-7">
+                    <h3>Conference Attendance</h3>
+                    <a href="/attend/">Fees & additional information</a>
+                </div>
+                <div class="col-xs-12 col-sm-5 text-right">
+                    <h3><small class="light">December 14<sup>th</sup></small></h3>
+                    {% if site.data.conf.registration-form %}
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.registration-form }}" target="_blank">
+                    {% endif %}
+                        Register!
+                    {% if site.data.conf.registration-form %}
+                    </a>
+                    {% endif %}
+                </div>
+        </div>
+        {% endif %}
+
         <!-- Voting -->
         {% if site.data.conf.toggles.vote-key or site.data.conf.toggles.vote-talk or site.data.conf.toggles.vote-panels or site.data.conf.toggles.vote-shop or site.data.conf.toggles.vote-shirt %}
         <div class="row">
