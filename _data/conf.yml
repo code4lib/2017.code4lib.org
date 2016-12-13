@@ -1,27 +1,27 @@
-livestream-url: "https://www.youtube.com/user/code4lib"
-talk-proposal-form: "https://goo.gl/forms/GbM0jmSdXFkRdHAr2"
-talk-voting-link: "http://vote.code4lib.org/election/42"
-panel-voting-link: "http://vote.code4lib.org/election/43"
-panel-proposal-form: "https://goo.gl/forms/q2KbVcO4ntkh6bPp1"
 keynote-voting-link: "https://vote.code4lib.org/election/41"
-workshop-proposal-form: "http://bit.ly/c4l17preconf"
-workshop-voting-link: "http://bit.ly/c4l17preconfvote"
+livestream-url: "https://www.youtube.com/user/code4lib"
+panel-proposal-form: "https://goo.gl/forms/q2KbVcO4ntkh6bPp1"
+panel-voting-link: "http://vote.code4lib.org/election/43"
+registration-form: ""
 shirt-proposal-form: "http://wiki.code4lib.org/2017_Code4Lib_T-Shirt_Design_Competition"
 shirt-voting-link: ""
-registration-form: ""
+talk-proposal-form: "https://goo.gl/forms/GbM0jmSdXFkRdHAr2"
+talk-voting-link: "http://vote.code4lib.org/election/42"
+workshop-proposal-form: "http://bit.ly/c4l17preconf"
 workshop-registration-form: ""
+workshop-voting-link: "http://bit.ly/c4l17preconfvote"
 
 
 toggles:
-  search: false
   livestream: false
-  prop-talk: false
-  prop-shop: false
   prop-shirt: true
+  prop-shop: false
+  prop-talk: false
+  register-shop: false
+  register: false
+  search: false
+  vote-key: false
+  vote-panels: false
+  vote-shirt: false
   vote-shop: false
   vote-talk: false
-  vote-panels: false
-  vote-key: false
-  vote-shirt: false
-  register: false
-  register-shop: false
