@@ -7,7 +7,7 @@ title: Preconference Workshops
     <div class="cell cell-lg">
         <div class="row">
             <div class="col-xs-12">
-                <h1>{{ page.title }}: March 7th, 2016</h1>
+                <h1>{{ page.title }}: March 6th, 2017</h1>
             </div>
         </div>
         <div class="row" id="workshop-sorting-div">
@@ -44,7 +44,7 @@ title: Preconference Workshops
                         {% elsif loc.AM-sessions == post.slugTitle %}
                             {% assign postLength = '9-12' %}
                             {% assign postTime = 'am' %}
-                            {% assign postLocale = loc %}
+                            {% assign post.Locale = loc %}
                         {% elsif loc.PM-sessions == post.slugTitle %}
                             {% assign postLength = '1:30-4:30' %}
                             {% assign postTime = 'pm' %}
