@@ -7,7 +7,7 @@ andreas-orphanides:
   # Twitter-Handle: ???
   Work-Title: Associate Head, User Experience
   Institution: NC State University Libraries
-  Image-URL: assets/img/speakers/orphanides.jpg
+  Image-URL: /assets/img/speakers/orphanides.jpg
   Keynote: 1
   Show: 1
 
@@ -20,6 +20,6 @@ christina-harlow:
   Twitter-Handle: cm_harlow
   Work-Title: Metadata Librarian
   Institution: Cornell University Library
-  Image-URL: assets/img/speakers/harlow.jpg
+  Image-URL: /assets/img/speakers/harlow.jpg
   Keynote: 1
   Show: 1
