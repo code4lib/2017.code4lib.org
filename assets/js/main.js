@@ -38,14 +38,14 @@ jQuery(document).ready(function($){
 
     $('.sort-workshop-time').click(function(){
         var time = $(this).attr('id');
-        var place = $('.sort-workshop-locale').val();
+        var place = $('.sort-workshop-locale').length ? $('.sort-workshop-locale').val() : 'all';
         $('.sort-workshop-time').removeClass('active');
         $(this).addClass('active');
         sortWorkshops(time,place);
     });
 
     $('.sort-workshop-locale').change(function(){
-        var time = $('.sort-workshop-time.active').attr('id');
+        var time = $('.sort-workshop-time.active').length ? $('.sort-workshop-time.active').attr('id') : 'all';
         var place = $(this).val();
         sortWorkshops(time,place);
     }).trigger('change');
