@@ -4,19 +4,13 @@
 {% if page.type == 'workshop' %}
     {% assign pageLength = 'empty' %}
     {% assign pageDate = 'March 6th' %}
-    {% for location in site.data.locations %}
-        {% assign loc = location[1] %}
-        {% if loc.AM-sessions == page.slugTitle and loc.PM-sessions == page.slugTitle %}
-            {% assign page.Length = '9:00-4:30 (w/ lunch break)' %}
-            {% assign page.Locale = loc %}
-        {% elsif loc.AM-sessions == page.slugTitle %}
-            {% assign page.Length = '9-12' %}
-            {% assign page.Locale = loc %}
-        {% elsif loc.PM-sessions == page.slugTitle %}
-            {% assign page.Length = '1:30-4:30' %}
-            {% assign page.Locale = loc %}
-        {% endif %}
-    {% endfor %}
+    {% if page.time == 'full' %}
+        {% assign pageLength = '9:00-4:30 (w/ lunch break)' %}
+    {% elsif page.time == 'am' %}
+        {% assign pageLength = '9-12' %}
+    {% elsif page.time == 'pm' %}
+        {% assign pageLength = '1:30-4:30' %}
+    {% endif %}
 {% endif %}
 
 {% if page.type == 'talk' %}
@@ -95,20 +89,10 @@
 
                     <!-- building for workshops -->
                     {% if page.type == 'workshop' %}
-                    <div class="col-xs-12 col-sm-12 col-md-12 building">
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                         <div class="talk-box-detail-value">
-                            <a href="{{ pageLocale.Map }}" target="_blank">{{ pageLocale.Building }}</a>
-                        </div>
-                    </div>
-                    {% endif %}
-
-                    <!-- building for workshops -->
-                    {% if page.type == 'workshop' %}
-                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
-                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-info-sign"></span></div>
-                        <div class="talk-box-detail-value">
-                            <a href="" data-toggle="modal" data-target="#floorplan">{{ pageLocale.Room }}</a>
+                            Room: {{ page.location }}
                         </div>
                     </div>
                     {% endif %}
