@@ -18,7 +18,7 @@ toggles:
   prop-shop: false
   prop-talk: false
   register-shop: false
-  register: false
+  register: true
   search: false
   vote-key: false
   vote-panels: false
