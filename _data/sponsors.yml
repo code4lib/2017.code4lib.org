@@ -67,7 +67,7 @@
 
 - name: Harvard University Libraries
   link: http://library.harvard.edu/
-  level: bronze
+  level: silver
   annotation: Closed Captioning
 
 - name: University of Illinois - Urbana-Champaign, School of Information Science
@@ -86,3 +86,45 @@
 - name: University of California, Berkeley Library
   link: http://www.lib.berkeley.edu/
   level: contributor
+
+- name: Bluespark
+  link: https://www.bluespark.com/
+  level: gold
+  img: assets/img/sponsors/bluespark.png
+
+- name: IndexData
+  level: gold
+  link: http://www.indexdata.com/
+
+- name: Temple University Libraries
+  level: silver
+  link: https://library.temple.edu/
+
+- name: University of California Riverside Library
+  level: bronze
+  link: https://library.ucr.edu/
+
+- name: California Institute of Technology Library
+  level: bronze
+  link: https://library.caltech.edu/
+
+- name: LYRASIS
+  level: bronze
+  link: https://www.lyrasis.org/Pages/Main.aspx
+
+- name: University of North Carolina - Chapel Hill
+  level: contributor
+  link: http://library.unc.edu/
+
+- name: University of California Davis Library
+  level: contributor
+  link: https://www.library.ucdavis.edu/
+
+- name: Villanova University Library
+  level: contributor
+  link: https://library.villanova.edu/
+
+- name: "iSchool@UBC: School of Library, Archival and Information Studies"
+  level: contributor
+  link: http://slais.ubc.ca/
+  img: assets/img/sponsors/UBC_iSCHOOL_LOGO.png
