@@ -95,6 +95,7 @@
 - name: IndexData
   level: gold
   link: http://www.indexdata.com/
+  img: assets/img/sponsors/indexdata_logo.png
 
 - name: Temple University Libraries
   level: silver
@@ -128,3 +129,8 @@
   level: contributor
   link: http://slais.ubc.ca/
   img: assets/img/sponsors/UBC_iSCHOOL_LOGO.png
+
+- name: Emory University Libraries
+  level: bronze
+  link: http://web.library.emory.edu/
+  img: assets/img/sponsors/LITS_EmoryLibraries_hz_rv.png
