@@ -62,7 +62,11 @@ title: Sponsors
 
                 {% assign gold = site.data.sponsors | where_exp:"item", "item.level == 'gold'" %}
                 {% for sponsor in gold %}
+                {% if sponsor.name == "IndexData" %}
+                <div class="col-xs-12 col-md-3">
+                {% else %}
                 <div class="col-xs-12 col-md-6">
+                {% endif %}
                     {% if sponsor.img %}
                     <a href="{{ sponsor.link }}" class="thumbnail" style="background: white;">
                         <img src="/{{ sponsor.img }}" alt="{{ sponsor.name }}">
