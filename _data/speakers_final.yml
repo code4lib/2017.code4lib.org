@@ -149,12 +149,12 @@ cary-gordon:
   Institution: The Cherry Hill Company
   Bio: |
     Cary Gordon is the President of the Cherry Hill Company, a Los Angeles based software development and systems integration shop specializing in employing web-based technologies to solve library problems.  Cary holds a Masters Degree in Library Science and is an Amazon Web Services Certified Solutions Architect.  After 15 years of operating a data center in Los Angeles, Cherry Hill moved all of its online services to AWS in May, 2011.
-  Twitter-Handle:
-  Slack-Handle:
+  Twitter-Handle: highermath
+  Slack-Handle: highermath
   Github-Handle:
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic9.jpg
+  Image-URL: /assets/img/speakers/chupatar.gif
 
 chris-beer:
   Name: Chris Beer
