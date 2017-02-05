@@ -25,6 +25,9 @@
     {% endif %}
 {% endif %}
 
+{% if page.type == 'poster' %}
+    {% assign pageDate = 'March 7th' %}
+{% endif %}
 
 <div class="sub-container container-fluid presentation-container">
     <div class="row section">
@@ -85,6 +88,11 @@
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                         <div class="talk-box-detail-value">{{ pageLength }}</div>
                     </div>
+                    {% elsif page.type == 'poster' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
+                    </div>
                     {% endif %}
 
                     <!-- building for workshops -->
@@ -93,6 +101,13 @@
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                         <div class="talk-box-detail-value">
                             Room: {{ page.location }}
+                        </div>
+                    </div>
+                    {% elsif page.type == 'poster' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            Room: Lobby
                         </div>
                     </div>
                     {% endif %}
