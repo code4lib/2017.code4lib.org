@@ -32,7 +32,7 @@
 - timeImg: 3.30.png
   title: Break
   day2: 1
-  time: 15:30-15:35
+  time: 15:30-15:45
 
 - timeImg: 10.00.png
   title: Break
@@ -72,10 +72,10 @@
   day1: 1
   time: 16:50-17:00
 
-- timeImg: 4.50.png
+- timeImg: 5.00.png
   title: Daily Wrap-up
   day2: 1
-  time: 16:50-17:00
+  time: 17:00-17:05
 
 - timeImg: 12.00.png
   title: Wrap-up
@@ -119,10 +119,10 @@
   day2: 1
   time: 13:00-13:05
 
-- timeImg: 3.35.png
+- timeImg: 3.45.png
   title: Announcements
   day2: 1
-  time: 15:35-15:40
+  time: 15:45-15:50
 
 - timeImg: 10.10.png
   title: Announcements
@@ -184,13 +184,13 @@
   start: 1489007100
   end: 1489012800
 
-- timeImg: 3.40.png
+- timeImg: 3.50.png
   title: Group 4&#58; 70 minutes (5 talks)
   day2: 1
   groupId: 5
-  time: 15:40-16:50
-  start: 1489016400
-  end: 1489020600
+  time: 15:50-17:00
+  start: 1488988200
+  end: 1488906000
 
 - timeImg: 11.00.png
   title: Group 5&#58; 60 minutes (5 talks)

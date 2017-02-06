@@ -6,6 +6,10 @@
   # Map: https://goo.gl/maps/nfeLoHPS9rP2
   # Floor: /assets/img/floor-plans/conference-center_second-floor.gif
   # Strat: Enter and pass the main reception desk. Take the elevator or stairs (on your right) to the 2nd floor. Turn right out of the elevator. Garden 3 is the last room on the right.
+Lobby:
+  Building: Luskin Center
+  Room: Lobby
+  
 TBD-1:
   Building: Luskin Center
   Room: TBD
