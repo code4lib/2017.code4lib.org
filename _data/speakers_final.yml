@@ -815,7 +815,9 @@ dominique-bortmas:
   Email: dbortmas@usf.edu
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic8.jpg
+  Image-URL: /assets/img/speakers/Dominique_Bortmas.jpg
+  Bio: |
+    Dominique Bortruex is the Metadata Librarian at the University of South Florida. She earned her MLIS at Kent State University where she also teaches as a virtual instructor. She also teaches a variety of online MLIS courses at Dominican University that prepare students for technical careers in libraries.
 
 jessica-berrellez:
   Name: Jessica Berrellez
@@ -831,20 +833,26 @@ amy-gay:
   Keynote: 0
   Show: 1
   Image-URL: /assets/img/speakers/nopic10.jpg
+  Bio: |
+    Amy was born and raised in Binghamton, New York. She received her B.S. in English from SUNY Oneonta (2008), M.A.T. in English Language Arts (ELA) Education from SUNY Cortland (2012), and a M.S. in Library & Information Science from Syracuse University (2016). She is currently part of the National Digital Stewardship Residency (NDSR) one-year fellowship program and is working on a pilot project at the U.S. Food & Drug Administration creating a science data catalog for the Center for Devices & Radiological Health (CDRH). When Amy is not working, she spends her free time reading / writing dystopian fiction, binge watching shows with her dog, cooking, and learning something new every day.
 
 jada-jones:
   Name: Jada Jones
   Last: Jones
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic11.jpg
+  Image-URL: /assets/img/speakers/Jada_Jones.jpg
+  Bio: |
+    Jada Jones is an analyst at the United States Food and Drug Administration. In this role, Jada strives to ensure that all scientific research and data is disseminated and made available and easily accessible to the public. Although she works in a very nontraditional librarian role, she maintains the librarian principles of access and service throughout her work. A big believer in diversity and inclusion, Jada supports programs and initiatives that promote these core beliefs. She has published several articles focused on diversity in libraries. Jada is a qualified librarian and holds a Master’s Degree in Library and Information Science from the University of North Carolina at Greensboro. In her spare time, she loves to read historical fiction, study languages, and visit small town museums. 
 
 claire-valdivia:
   Name: Claire Valdivia
   Last: Valdivia
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic1.jpg
+  Image-URL: /assets/img/speakers/Claire_Valdivia.jpg
+  Bio: |
+    Claire is a technical project manager at the U.S. Food & Drug Administration where she develops creative solutions to complex business and IT challenges. By focusing on user-centered design, Claire applies her library science background on a regular basis to develop usable products that promote the public good. Currently, she manages an interagency software pilot for a federal expert network and provides product management services for a range of digital initiatives. When not at work, Claire loves to hike and camp around the Maryland area.
 
 scott-w-h-young:
   Name: Scott W. H. Young
@@ -867,7 +875,9 @@ margaret-heller:
   Email: mheller1@luc.edu
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic4.jpg
+  Image-URL: /assets/img/speakers/heller.jpg
+  Bio: |
+    Margaret manages the institutional repository, develops the library website in Drupal, improves the Primo discovery layer, and is implementing a digital preservation program. In her spare time she researches social justice in repositories, community-based libraries and projects, and issues for working parents in technical positions. She is active in ALA and LITA, and has been kicking around Code4Lib since 2010. This is her 6th annual Code4Lib conference.
 
 corey-harper:
   Name: Corey Harper
@@ -875,7 +885,9 @@ corey-harper:
   Email: corey.harper@gmail.com
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic5.jpg
+  Image-URL: /assets/img/speakers/Corey_Harper.JPG
+  Bio: |
+    Corey Harper spent nearly 15 years building digital libraries, administering library systems, and managing library metadata. He has since moved on to technology research in natural language processing, machine learning, predictive analytics, and data visualization with applications toward issues around research communications. He works in Elsevier Labs, the research and development arm of Elsevier.
 
 kevin-clair:
   Name: Kevin Clair
@@ -892,6 +904,8 @@ andy-kohler:
   Keynote: 0
   Show: 1
   Image-URL: /assets/img/speakers/nopic7.jpg
+  Bio: |
+    Andy works for UCLA Library Digital Initiatives and Information Technology (DIIT), supporting the Voyager ILS and various other systems built around it.  He tries to solve more problems than he causes, and succeeds less often than he'd like.
 
 ruth-collings:
   Name: Ruth Collings
@@ -915,7 +929,9 @@ elvia-arroyo-ramirez:
   Email: elviaa@princeton.edu
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic10.jpg
+  Image-URL: /assets/img/speakers/elvia.JPG
+  Bio: |
+    Elvia is the Processing Archivist for Latin American Collections at Princeton University. She holds a MLIS from the University of Pittsburgh and a BA in Art History from UCLA. Her professional interests are digital archives, digital preservation, and inclusive community building.
 
 kelly-bolding:
   Name: Kelly Bolding
@@ -923,7 +939,9 @@ kelly-bolding:
   Email: kbolding@princeton.edu
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic11.jpg
+  Image-URL: /assets/img/speakers/Kelly_Bolding.jpg
+  Bio: |
+    Kelly Bolding has been processing archival collections for Princeton University Library’s Manuscripts Division for three years, prior to which she learned the ropes during a year-long stint at the New York Public Library. She increasingly works with born-digital materials in contemporary personal papers collections and has been involved in a team effort to establish a digital archives workstation at Princeton’s Firestone Library. She received a BA in English Literature from Reed College in 2011 and recently completed her MLIS at Rutgers in May 2016, where she focused her studies on the intersection of literary archives and born-digital collections.
 
 callan-bignoli:
   Name: Callan Bignoli
@@ -931,27 +949,35 @@ callan-bignoli:
   Keynote: 0
   Show: 1
   Image-URL: /assets/img/speakers/nopic1.jpg
+  Bio: |
+    Callan Bignoli is the assistant director and technology manager for the three busy public libraries in Brookline, Massachusetts. She explores the crossroads of digital and physical library user experience and works to provide library staff with the tools and training they need to stay nimble and well-equipped.
 
 bonnie-gordon:
   Name: Bonnie Gordon
   Last: Gordon
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic2.jpg
+  Image-URL: /assets/img/speakers/bonnie_bio.jpg
+  Bio: |
+    Bonnie is an Assistant Digital Archivist at the Rockefeller Archive Center, where she supports accessioning, processing, and collection development archivists in their work with born digital records and digital preservation. She received her Master’s in Archives and Public History from New York University.
 
 hillel-arnold:
   Name: Hillel Arnold
   Last: Arnold
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic3.jpg
+  Image-URL: /assets/img/speakers/Hillel_Arnold.jpg
+  Bio: |
+    Hillel leads the Rockefeller Archive Center’s Digital Team, whose mission is to facilitate broad and equitable access to and responsible preservation of materials in the RAC’s custody by providing technical leadership and expertise to staff in all program areas. He likes to talk about folk music, maintenance and user-centered processes.
 
 scott-ziegler:
   Name: Scott Ziegler
   Last: Ziegler
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic4.jpg
+  Image-URL: /assets/img/speakers/Scott_Ziegler.jpg
+  Bio: |
+    Scott Ziegler is a librarian/archivist/technology manager who spends his time thinking up new ways to promote the collections at his library. He does tolerably well, and has a good time.
 
 angie-fullington:
   Name: Angie Fullington
