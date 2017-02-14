@@ -1129,3 +1129,33 @@ kate-dohe:
   Email: katedohe@umd.edu
   Show: 1
   Image-URL: /assets/img/speakers/nopic2.jpg
+
+sara-allain:
+  Name: Sara Allain
+  Last: Allain
+  Email: sallain@artefactual.com
+  Keynote: 0
+  Show: 1
+  Image-URL: /assets/img/speakers/Sara_Allain.jpg
+  Bio: |
+    Sara works at Artefactual on both the AtoM and Archivematica projects, providing requirements analysis, user documentation, QA testing, project governance, and community support. Prior to Artefactual she worked in academic libraries as an archivist and/or a librarian, tackling wide-ranging subjects like data migration, Islandora implementation, digitization management, and library communications. 
+
+laney-mcglohon:
+  Name: Laney McGlohon
+  Last: McGlohon
+  Email: lmcglohon@gmail.com
+  Keynote: 0
+  Show: 1
+  Image-URL: /assets/img/speakers/nopic3.jpg
+  Bio: |
+    An information scientist, software developer, librarian, and data wrangler. I have been writing software for over 30 years and have worked in many different kinds of libraries - public, newspaper, academic, and cultural heritage institutions.
+
+hannah-frost:
+  Name: Hannah Frost
+  Last: Frost
+  Email: hfrost@stanford.edu
+  Keynote: 0
+  Show: 1
+  Image-URL: /assets/img/speakers/nopic4.jpg
+  Bio: |
+    Hannah has been involved in digital library work at Stanford for 15 years. She currently leads the team responsible for specifying, managing, and delivering digital library services including digitization, project management, media preservation, born-digital archiving, web archiving, and repository-based preservation and publishing services. And Hannah is the Product Manager for the Hydra-in-a-Box project. 
