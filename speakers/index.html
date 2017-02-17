@@ -31,8 +31,7 @@ title: Speakers
         </div>
         <div class="row">
             <div class="col-xs-12 speaker-sequence sequence">
-            {% assign sorted_speakers = (site.data.speakers_final | sort: 'Last') %}
-            {% for person in sorted_speakers %}
+            {% for person in site.data.speakers_final %}
                 {% assign speaker = person[1] %}
                     {% if speaker.Keynote == 0 and speaker.Show == 1%}
                         {% include speaker_box.html param=speaker %}
