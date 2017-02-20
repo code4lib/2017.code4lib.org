@@ -29,6 +29,7 @@
 
 - name: EBSCO
   link: https://www.ebsco.com/
+  img: assets/img/sponsors/EPLogo_vector_294.jpg
   level: platinum
 
 - name: OCLC
@@ -62,12 +63,14 @@
 
 - name: Ex Libris
   link: http://www.exlibrisgroup.com/
+  img: assets/img/sponsors/Exlibris_ProQuest_logo.png
   level: bronze
   annotation: Break
 
 - name: Harvard University Libraries
   link: http://library.harvard.edu/
   level: silver
+  img: assets/img/sponsors/Harvard_Library_Vertical_Large_Signature_RGB.png
   annotation: Closed Captioning
 
 - name: University of Illinois - Urbana-Champaign, School of Information Science
@@ -99,6 +102,7 @@
 
 - name: Temple University Libraries
   level: silver
+  img: assets/img/sponsors/Temple.jpg
   link: https://library.temple.edu/
 
 - name: University of California Riverside Library
@@ -134,3 +138,33 @@
   level: bronze
   link: http://web.library.emory.edu/
   img: assets/img/sponsors/LITS_EmoryLibraries_hz_rv.png
+
+- name: Rutgers School of Communication and Information
+  level: bronze
+  img: assets/img/sponsors/RU_SIG_SCI_CMYK.jpg
+  link: http://comminfo.rutgers.edu/library-and-information-science/library-and-information-science-department.html
+
+- name: Elsevier
+  level: bronze
+  img: assets/img/sponsors/ELS_NS_Logo_2C_RGB.png
+  link: https://www.elsevier.com/
+
+- name: New York Public Library
+  level: platinum
+  img: assets/img/sponsors/NYPL_logo1_black_pos.jpg
+  link: https://www.nypl.org/
+
+- name: GitHub
+  level: contributor
+  img: assets/img/sponsors/GitHub_Logo.png
+  link: https://github.com/
+
+- name: Rosenfeld Media
+  link: http://rosenfeldmedia.com/
+  level: contributor
+  img: assets/img/sponsors/rosenfeld.svg
+
+- name: oXygen
+  link: https://www.oxygenxml.com/
+  level: contributor
+  img: assets/img/sponsors/oxygen250x80.png
