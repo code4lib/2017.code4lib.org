@@ -48,11 +48,12 @@
 <script src="http://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <script>
   $(document).ready(function() {
-    $('#dinner-table').DataTable(
-        {"paging": false,
-         "searching": false,
-         "autoWidth": false}
-        );
+    $('#dinner-table').DataTable({
+        "paging": false,
+        "searching": false,
+        "autoWidth": false,
+        "order": [[3, 'asc'], [0, 'asc']]
+        });
     } );
 </script>
 {% endif %}
