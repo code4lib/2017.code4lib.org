@@ -149,7 +149,7 @@ title: Newcomer Dinner
 
 <div class="row section" id="restaurant-list">
     <div class="cell cell-lg">
-        <div class="col-md-12">
+        <div class="col-md-12 text-center">
             <h2>Restaurant List</h2>
         </div>
     </div>
@@ -161,21 +161,25 @@ title: Newcomer Dinner
                     <th>Type</th>
                     <th>Neighborhood</th>
                     <th>Distance</th>
-                    <th>Takes Reservations?</th>
-                    <th>Vegetarian Friendly?</th>
-                    <th>URL</th>
+                    <th>Takes<br/>Reservations?</th>
+                    <th>Vegetarian<br/>Friendly?</th>
                 </tr>
             </thead>
             <tbody>
                 {% for restaurant in site.data.dinner %}
                 <tr>
-                    <td>{{ restaurant.name }}</td>
+                    <td>
+                      {% if restaurant.url != 'n/a' %}
+                        <a href="{{restaurant.url}}">{{ restaurant.name }}</a>
+                      {% else %}
+                        {{ restaurant.name }}
+                      {% endif %}
+                    </td>
                     <td>{{ restaurant.type }}</td>
                     <td>{{ restaurant.hood }}</td>
                     <td>{{ restaurant.dist }}</td>
                     <td>{{ restaurant.res }}</td>
                     <td>{{ restaurant.veg }}</td>
-                    <td><a href="{{ restaurant.url }}">{{restaurant.url}}</a></td>
                 </tr>
                 {% endfor %}
             </tbody>

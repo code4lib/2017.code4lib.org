@@ -51,7 +51,7 @@
   hood: Westwood
   name: TLT Food
   res: 'no'
-  type: New American/Mexican
+  type: New American
   url: http://www.tltfood.com/westwood
   veg: 'yes'
 - dist: .50-.74
@@ -130,7 +130,7 @@
   res: 'no'
   type: Thai
   url: http://www.westwoodthaicafe.com/
-  veg: es
+  veg: 'yes'
 - dist: 1+ miles
   hood: Westwood
   name: Soleil/P'tit Soleil
@@ -296,7 +296,7 @@
   hood: Sawtelle / Brentwood
   name: Plan Check
   res: 'no'
-  type: New American & Craft Beer
+  type: New American
   url: http://plancheck.com
   veg: 'no'
 - dist: 3+ miles
@@ -341,7 +341,7 @@
   type: Sushi
   url: n/a
   veg: 'no'
-- dist: ''
+- dist: '3+ miles'
   hood: Sawtelle / Brentwood
   name: Ohana Burger
   res: 'no'
@@ -429,7 +429,7 @@
   hood: Venice
   name: Wurstkuche
   res: 'no'
-  type: German Sausages & Beer
+  type: German Sausage
   url: http://wurstkuche.com
   veg: 'no'
 - dist: 9+ miles
@@ -520,7 +520,7 @@
   hood: Miracle Mile
   name: Doughboys
   res: 'no'
-  type: Comfort Food & Bajery
+  type: Comfort Food
   url: http://doughboys.net
   veg: 'yes'
 - dist: 5+ miles
@@ -541,7 +541,7 @@
   hood: Miracle Mile
   name: Plan Check
   res: 'no'
-  type: New American & Craft Beer
+  type: New American
   url: http://plancheck.com
   veg: 'no'
 - dist: 9+ miles
