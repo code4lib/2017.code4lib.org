@@ -5,6 +5,11 @@ title: Wednesday Menus
 {% for meal in site.data.day2_menu %}
   <div class="row section">
     <div class="cell cell-lg">
+      {% if forloop.index == 1 %}
+        <div class="page-header">
+          <h1>Wednesday Menus</h1>
+        </div>
+      {% endif %}
       <div class="col-md-12">
         <a name="{{meal[0]}}"></a>
         <aside class="tasting-menu" style="background-color:#fff;">

@@ -2,9 +2,15 @@
 layout: default
 title: Tuesday Menus
 ---
+
 {% for meal in site.data.day1_menu %}
   <div class="row section" id="{{meal[0]}}">
     <div class="cell cell-lg">
+      {% if forloop.index == 1 %}
+        <div class="page-header">
+          <h1>Tuesday Menus</h1>
+        </div>
+      {% endif %}
       <div class="col-md-12">
         <a name="{{meal[0]}}"></a>
         <aside class="tasting-menu" style="background-color:#fff;">
