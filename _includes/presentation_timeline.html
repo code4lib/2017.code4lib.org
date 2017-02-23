@@ -18,7 +18,19 @@
                             {% assign keynote = site.posts | where:"group",event.groupId %}
                             <h2><a href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
                         {% else %}
-                            <h2>{{ event.title }}</h2>
+                            <h2>
+                            {{ event.title }}
+                            {% if event.title == "Lunch" %}
+                                &nbsp;
+                                <a href="/schedule/food/{{ include.param }}-menus.html#Lunch" class="btn btn-primary" >View Menu</a>
+                            {% elsif event.title == "Registration/Breakfast" %}
+                                &nbsp;
+                                <a href="/schedule/food/{{ include.param }}-menus.html#Breakfast" class="btn btn-primary" >View Menu</a>
+                            {% elsif event.title == "Break" %}
+                                &nbsp;
+                                <a href="/schedule/food/{{ include.param }}-menus.html#Snacks" class="btn btn-primary" >View Menu</a>
+                            {% endif %}
+                            </h2>
                         {% endif %}
                     </div>
                     <div class="col-sm-5 col-xs-12 text-right">
