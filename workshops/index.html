@@ -45,7 +45,7 @@ title: Preconference Workshops
                         {% elsif loc.AM-sessions == post.slugTitle %}
                             {% assign postLength = '9-12' %}
                             {% assign postTime = 'am' %}
-                            {% assign post.Locale = loc %}
+                            {% assign postLocale = loc %}
                             {% assign postMap = loc.Map %}
                         {% elsif loc.PM-sessions == post.slugTitle %}
                             {% assign postLength = '1:30-4:30' %}
