@@ -9,99 +9,105 @@
 Lobby:
   Building: Luskin Center
   Room: Lobby
-  
+
 TBD-1:
-  Building: Luskin Center
-  Room: TBD
+  Building: Powell Library
+  Room: CLICC Classroom B (Level 3)
   AM-sessions: five-tips-for-developers-creating-applications-using-apis
-  PM-sessions: ally-skills-workshop
+  PM-sessions: developing-library-applications-in-google-sheets-with-google-apps-script
 
 TBD-2:
   Building: Luskin Center
-  Room: TBD
+  Room: Legacy Room B (Level 2)
   AM-sessions: aws-services-overview
   PM-sessions: aws-services-overview
 
 TBD-3:
-  Building: Luskin Center
-  Room: TBD
+  Building: Young (Charles E. Young) Research Library
+  Room: Conference Room (Level 1)
   AM-sessions: data-analysis-with-python-an-introduction-to-pandas-and-jupyter-notebooks
-  PM-sessions: building-bibliographic-rdf-applications-and-micro-services
+  PM-sessions: natural-language-processing-with-python-getting-started
 
 TBD-4:
   Building: Luskin Center
-  Room: TBD
+  Room: Exploration Room (Level 2)
   AM-sessions: digital-projects-basic-technical-skills-bootcamp
-  PM-sessions: curation-collaboration-and-coding-the-secret-sauce-for-scholarship-support
+  PM-sessions: building-bibliographic-rdf-applications-and-micro-services
 
 TBD-5:
   Building: Luskin Center
-  Room: TBD
+  Room: Laureate Room (Level 1)
   AM-sessions: fedora-import-export
-  PM-sessions: customizing-blacklight-approaches-and-best-practices
+  PM-sessions: performance-and-scale-testing-of-fedora
 
 TBD-6:
   Building: Luskin Center
-  Room: TBD
+  Room: Centennial A (Level 1)
   AM-sessions: data-modeling-101-getting-started
   PM-sessions: data-modeling-201-building-models-and-profiles-with-pcdm
 
 TBD-7:
   Building: Luskin Center
-  Room: TBD
+  Room: Optimist Room A (Level 2)
   AM-sessions: getting-started-with-iiif
-  PM-sessions: developing-library-applications-in-google-sheets-with-google-apps-script
+  PM-sessions: customizing-blacklight-approaches-and-best-practices
 
 TBD-8:
-  Building: Luskin Center
-  Room: TBD
+  Building: Young (Charles E. Young) Research Library
+  Room: Presentation Room
   AM-sessions: introduction-to-ipfs-and-distributed-technologies
   PM-sessions: engineering-virtual-reality-experiences-in-library-settings
 
 TBD-9:
-  Building: Luskin Center
-  Room: TBD
+  Building: Young (Charles E. Young) Research Library
+  Room: West Electronic Classroom (Level 2)
   AM-sessions: introduction-to-text-mining
-  PM-sessions: fail4lib-2017-fail5lib
+  PM-sessions:
 
 TBD-10:
   Building: Luskin Center
-  Room: TBD
+  Room: Illumination Room (Level 2)
   AM-sessions: folio-for-developers-getting-your-own-folio-instance-running
   PM-sessions: folio-hack-a-thon
 
 TBD-11:
   Building: Luskin Center
-  Room: TBD
-  AM-sessions: getting-your-hands-dirty-with-web-scraping
+  Room: Legacy Room A (Level 2)
+  AM-sessions: modeling-concepts-in-linked-data-rdf
   PM-sessions: islandora-in-the-wild-training-and-resources-from-pilot-and-production-repository-projects
 
 TBD-12:
   Building: Luskin Center
-  Room: TBD
+  Room: Pinnacle room (Level 1)
   AM-sessions: how-do-we-keep-voting-sustaining-open-source-tools-in-a-community-driven-environment-strategies
-  PM-sessions: 
+  PM-sessions: getting-your-hands-dirty-with-web-scraping
 
 TBD-13:
-  Building: Luskin Center
-  Room: TBD
+  Building: Powell Library
+  Room: Room 186
   AM-sessions: let-s-paper-prototype-low-cost-structured-brainstorming-individually-and-in-teams
-  PM-sessions: natural-language-processing-with-python-getting-started
+  PM-sessions: fail4lib-2017-fail5lib
 
 TBD-14:
   Building: Luskin Center
-  Room: TBD
-  AM-sessions: modeling-concepts-in-linked-data-rdf
-  PM-sessions: performance-and-scale-testing-of-fedora
+  Room: Optimist Room B (Level 2)
+  AM-sessions: resisting-impostor-syndrome
+  PM-sessions: ally-skills-workshop
 
 TBD-15:
-  Building: Luskin Center
-  Room: TBD
-  AM-sessions: resisting-impostor-syndrome
-  PM-sessions:
+  Building: Science & Engineering Library - 8270 Boelter Hall
+  Room: SEL Classroom
+  AM-sessions: web-accessibility-becoming-a-stronger-advocate
+  PM-sessions: curation-collaboration-and-coding-the-secret-sauce-for-scholarship-support
 
 TBD-16:
-  Building: Luskin Center
-  Room: TBD
-  AM-sessions: web-accessibility-becoming-a-stronger-advocate
+  Building: Young (Charles E. Young) Research Library
+  Room: Nautilus Chamber
+  AM-sessions: getting-started-ansible
+  PM-sessions:
+
+TBD-17:
+  Building:
+  Room:
+  AM-sessions:
   PM-sessions:

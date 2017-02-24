@@ -51,7 +51,7 @@ alicia-cozine:
   Github-Handle:
   Keynote: 0
   Show: 1
-  Image-URL:
+  Image-URL: /assets/img/speakers/nopic9.jpg
 
 andrew-woods:
   Name: Andrew Woods
@@ -79,7 +79,7 @@ anthony-vuong:
   Github-Handle:
   Keynote: 0
   Show: 1
-  Image-URL:
+  Image-URL: /assets/img/speakers/nopic4.jpg
 
 ben-companjen:
   Name: Ben Companjen
@@ -328,7 +328,7 @@ hardy-pottinger:
   Github-Handle:
   Keynote: 0
   Show: 1
-  Image-URL:
+  Image-URL: /assets/img/speakers/nopic5.jpg
 
 hector-correa:
   Name: Hector Correa
@@ -529,7 +529,7 @@ kim-pham:
   Last: Pham
   Email: kimpham54@gmail.com
   Work-Title: Digital Projects and Technologies Librarian
-  Institution: University of Toronto Scarborough Library
+  Institution: University of Toronto
   Bio:
   Twitter-Handle:
   Slack-Handle:
@@ -1076,13 +1076,6 @@ kirsta-stapelfeldt:
   Email: kirsta.stapelfeldt@utoronto.ca
   Show: 1
   Image-URL: /assets/img/speakers/nopic7.jpg
-
-kim-pham:
-  Name: Kim Pham
-  Last: Pham
-  Email: kim.pham@utoronto.ca
-  Show: 1
-  Image-URL: /assets/img/speakers/nopic8.jpg
 
 marcus-barnes:
   Name: Marcus Barnes
