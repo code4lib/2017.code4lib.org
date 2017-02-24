@@ -8,7 +8,7 @@ speakers:
 type: workshop
 categories: workshops
 time: am
-location: TBD
+location: Luskin (Level 1)  Laureate Room
 slugTitle: fedora-import-export
 title: Fedora Import/Export
 ---

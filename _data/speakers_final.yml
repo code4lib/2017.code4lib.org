@@ -39,6 +39,20 @@ aaron-krebeck:
   Show: 1
   Image-URL: /assets/img/speakers/Krebeck_Aaron.jpg
 
+alicia-cozine:
+  Name: Alicia Cozine
+  Last: Cozine
+  Email: alicia@curationexperts.com
+  Work-Title:
+  Institution: Data Curation Experts
+  Bio:
+  Twitter-Handle:
+  Slack-Handle:
+  Github-Handle:
+  Keynote: 0
+  Show: 1
+  Image-URL:
+
 andrew-woods:
   Name: Andrew Woods
   Last: Woods
@@ -52,6 +66,20 @@ andrew-woods:
   Keynote: 0
   Show: 1
   Image-URL: /assets/img/speakers/Woods_Andrew.png
+
+anthony-vuong:
+  Name: Anthony Vuong
+  Last: Vuong
+  Email: avuong@library.ucla.edu
+  Work-Title:
+  Institution: UCLA Library
+  Bio:
+  Twitter-Handle:
+  Slack-Handle:
+  Github-Handle:
+  Keynote: 0
+  Show: 1
+  Image-URL:
 
 ben-companjen:
   Name: Ben Companjen
@@ -287,6 +315,20 @@ flannon-jackson:
   Keynote: 0
   Show: 1
   Image-URL: /assets/img/speakers/nopic6.jpg
+
+hardy-pottinger:
+  Name: Hardy Pottinger
+  Last: Pottinger
+  Email: hpottinger@library.ucla.edu
+  Work-Title:
+  Institution: UCLA Library
+  Bio:
+  Twitter-Handle:
+  Slack-Handle:
+  Github-Handle:
+  Keynote: 0
+  Show: 1
+  Image-URL:
 
 hector-correa:
   Name: Hector Correa
@@ -843,7 +885,7 @@ jada-jones:
   Show: 1
   Image-URL: /assets/img/speakers/Jada_Jones.jpg
   Bio: |
-    Jada Jones is an analyst at the United States Food and Drug Administration. In this role, Jada strives to ensure that all scientific research and data is disseminated and made available and easily accessible to the public. Although she works in a very nontraditional librarian role, she maintains the librarian principles of access and service throughout her work. A big believer in diversity and inclusion, Jada supports programs and initiatives that promote these core beliefs. She has published several articles focused on diversity in libraries. Jada is a qualified librarian and holds a Master’s Degree in Library and Information Science from the University of North Carolina at Greensboro. In her spare time, she loves to read historical fiction, study languages, and visit small town museums. 
+    Jada Jones is an analyst at the United States Food and Drug Administration. In this role, Jada strives to ensure that all scientific research and data is disseminated and made available and easily accessible to the public. Although she works in a very nontraditional librarian role, she maintains the librarian principles of access and service throughout her work. A big believer in diversity and inclusion, Jada supports programs and initiatives that promote these core beliefs. She has published several articles focused on diversity in libraries. Jada is a qualified librarian and holds a Master’s Degree in Library and Information Science from the University of North Carolina at Greensboro. In her spare time, she loves to read historical fiction, study languages, and visit small town museums.
 
 claire-valdivia:
   Name: Claire Valdivia
@@ -1010,7 +1052,7 @@ beaudry-allen:
 mari-khasmanyan:
   Name: Mari Khasmanyan
   Last: Khasmanyan
-  Email: 
+  Email:
   Show: 1
   Image-URL: /assets/img/speakers/nopic4.jpg
 
@@ -1162,7 +1204,7 @@ sara-allain:
   Show: 1
   Image-URL: /assets/img/speakers/Sara_Allain.jpg
   Bio: |
-    Sara works at Artefactual on both the AtoM and Archivematica projects, providing requirements analysis, user documentation, QA testing, project governance, and community support. Prior to Artefactual she worked in academic libraries as an archivist and/or a librarian, tackling wide-ranging subjects like data migration, Islandora implementation, digitization management, and library communications. 
+    Sara works at Artefactual on both the AtoM and Archivematica projects, providing requirements analysis, user documentation, QA testing, project governance, and community support. Prior to Artefactual she worked in academic libraries as an archivist and/or a librarian, tackling wide-ranging subjects like data migration, Islandora implementation, digitization management, and library communications.
 
 laney-mcglohon:
   Name: Laney McGlohon
@@ -1182,4 +1224,4 @@ hannah-frost:
   Show: 1
   Image-URL: /assets/img/speakers/nopic4.jpg
   Bio: |
-    Hannah has been involved in digital library work at Stanford for 15 years. She currently leads the team responsible for specifying, managing, and delivering digital library services including digitization, project management, media preservation, born-digital archiving, web archiving, and repository-based preservation and publishing services. And Hannah is the Product Manager for the Hydra-in-a-Box project. 
+    Hannah has been involved in digital library work at Stanford for 15 years. She currently leads the team responsible for specifying, managing, and delivering digital library services including digitization, project management, media preservation, born-digital archiving, web archiving, and repository-based preservation and publishing services. And Hannah is the Product Manager for the Hydra-in-a-Box project.
