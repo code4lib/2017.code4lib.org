@@ -600,3 +600,38 @@
   type: Greek
   url: http://papacristos.com
   veg: 'yes'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Hamjibak
+  res: 'no'
+  type: Korean
+  url: http://www.hamjiparkla.com/
+  veg: 'kinda'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Moodaepo II
+  res: 'yes'
+  type: Korean BBQ
+  url: https://www.yelp.com/biz/moodaepo-ii-los-angeles
+  veg: 'no'
+- dist: 9+ miles
+  hood: Koreatown
+  name: Myungdong Kyoja
+  res: 'no'
+  type: Korean BBQ
+  url: https://www.yelp.com/biz/myung-dong-kyoja-los-angeles
+  veg: 'kinda'
+- dist: 7+ miles
+  hood: Culver City
+  name: Paco's Tacos
+  res: 'no'
+  type: Mexican
+  url: http://www.pacoscantina.com/
+  veg: 'no'
+- dist: 7+ miles
+  hood: Culver City
+  name: Honey's Kettle Fried Chicken
+  res: 'no'
+  type: Comfort Food
+  url: http://honeyskettle.com/
+  veg: 'no'
