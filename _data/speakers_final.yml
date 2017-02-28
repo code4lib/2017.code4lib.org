@@ -39,19 +39,34 @@ aaron-krebeck:
   Show: 1
   Image-URL: /assets/img/speakers/Krebeck_Aaron.jpg
 
-alicia-cozine:
-  Name: Alicia Cozine
-  Last: Cozine
-  Email: alicia@curationexperts.com
+adam-smith:
+  Name: Adam Smith
+  Last: Smith
+  Email:
   Work-Title:
-  Institution: Data Curation Experts
+  Institution: discoverygarden
   Bio:
   Twitter-Handle:
   Slack-Handle:
   Github-Handle:
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic9.jpg
+  Image-URL: /assets/img/speakers/nopic4.jpg
+
+alicia-cozine:
+  Name: Alicia Cozine
+  Last: Cozine
+  Email: alicia@curationexperts.com
+  Work-Title: Dev Ops Lead
+  Institution: Data Curation Experts
+  Bio: |
+    Alicia has more than a decade of experience in the software industry, including systems administration, testing, marketing, project management, documentation, and database administration. She holds a BA from Columbia College in New York and a PhD. in European History from the University of Chicago. In the short midwestern summers, Alicia enjoys competing in dressage with her Percheron/Quarter Horse cross, Shade. She has served as President of the Central States Dressage and Eventing Association and sits on the board of the Downtown Minneapolis Transportation Management Organization (TMO).
+  Twitter-Handle:
+  Slack-Handle:
+  Github-Handle:
+  Keynote: 0
+  Show: 1
+  Image-URL: /assets/img/speakers/Cozine.jpg
 
 andrew-woods:
   Name: Andrew Woods
@@ -71,9 +86,10 @@ anthony-vuong:
   Name: Anthony Vuong
   Last: Vuong
   Email: avuong@library.ucla.edu
-  Work-Title:
+  Work-Title: Linux Development Support Engineer
   Institution: UCLA Library
-  Bio:
+  Bio: |
+    Anthony is a Systems Administrator at the University of California, Los Angeles. He specializes in managing large research compute clusters and implementing high-availability environments. He is particularly interested in finding ways to save time and is diving deep into the world of AWS.
   Twitter-Handle:
   Slack-Handle:
   Github-Handle:
@@ -306,15 +322,16 @@ hardy-pottinger:
   Name: Hardy Pottinger
   Last: Pottinger
   Email: hpottinger@library.ucla.edu
-  Work-Title:
+  Work-Title: Digital Library Software Developer
   Institution: UCLA Library
-  Bio:
+  Bio: |
+    Hardy is a DSpace Commiter, since 2011, and works for UCLA Library as a Digital Library developer. He's currently working with his colleagues to deploy multiple instances of DSpace to support UCLA Library in various projects. He holds a BA in English, from Fontbonne in Saint Louis. He worked on the school paper, and leveraged that experience into a few jobs at the American Academy of Orthopaedic Surgeons in Chicago. During that period, he ended up doing quite a bit of developing/publishing work, mainly on web sites, and narrowly missed the tail end of the dot-com bubble. He then moved back to Missouri to be closer to family. He's been working in the Library space ever since, including 16 years as the technical lead for MOspace, the institutional repository of the University of Missouri.
   Twitter-Handle:
   Slack-Handle:
   Github-Handle:
   Keynote: 0
   Show: 1
-  Image-URL: /assets/img/speakers/nopic5.jpg
+  Image-URL: /assets/img/speakers/Pottinger.jpg
 
 hector-correa:
   Name: Hector Correa
