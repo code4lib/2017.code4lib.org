@@ -27,9 +27,9 @@
   link: http://projectblacklight.org/
   level: diamond
 
-- name: EBSCO
-  link: https://www.ebsco.com/
-  img: assets/img/sponsors/EPLogo_vector_294.jpg
+- name: FOLIO
+  link: https://www.folio.org/
+  img: assets/img/sponsors/FOLIO_logo_2160x1080-01(1).png
   level: platinum
 
 - name: OCLC
@@ -88,6 +88,7 @@
 
 - name: University of California, Berkeley Library
   link: http://www.lib.berkeley.edu/
+  img: assets/img/sponsors/UCBLibrary_blue.jpg
   level: contributor
 
 - name: Bluespark
@@ -115,6 +116,7 @@
 
 - name: LYRASIS
   level: bronze
+  img: assets/img/sponsors/lyrasis.jpg
   link: https://www.lyrasis.org/Pages/Main.aspx
 
 - name: University of North Carolina - Chapel Hill
@@ -155,16 +157,36 @@
   link: https://www.nypl.org/
 
 - name: GitHub
-  level: contributor
+  level: supporter
   img: assets/img/sponsors/GitHub_Logo.png
   link: https://github.com/
 
 - name: Rosenfeld Media
   link: http://rosenfeldmedia.com/
-  level: contributor
+  level: supporter
   img: assets/img/sponsors/rosenfeld.svg
 
 - name: oXygen
   link: https://www.oxygenxml.com/
-  level: contributor
+  level: supporter
   img: assets/img/sponsors/oxygen250x80.png
+
+- name: figshare
+  img: assets/img/sponsors/figlogo.png
+  level: bronze
+  link: https://figshare.com/
+
+- name: Innovative Interfaces, Inc.
+  img: assets/img/sponsors/III.png
+  level: bronze
+  link: https://www.iii.com/
+
+- name: UCLA Library
+  img: assets/img/sponsors/ucla_library_logo.png
+  level: gold
+  link: https://www.library.ucla.edu/
+
+- name: University of North Texas Libraries
+  img: assets/img/sponsors/UNT.svg
+  level: bronze
+  link: http://www.library.unt.edu/
