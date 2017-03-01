@@ -116,6 +116,7 @@
 
 - name: LYRASIS
   level: bronze
+  img: assets/img/sponsors/lyrasis.jpg
   link: https://www.lyrasis.org/Pages/Main.aspx
 
 - name: University of North Carolina - Chapel Hill
