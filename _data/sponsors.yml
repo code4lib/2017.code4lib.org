@@ -155,16 +155,16 @@
   link: https://www.nypl.org/
 
 - name: GitHub
-  level: contributor
+  level: supporter
   img: assets/img/sponsors/GitHub_Logo.png
   link: https://github.com/
 
 - name: Rosenfeld Media
   link: http://rosenfeldmedia.com/
-  level: contributor
+  level: supporter
   img: assets/img/sponsors/rosenfeld.svg
 
 - name: oXygen
   link: https://www.oxygenxml.com/
-  level: contributor
+  level: supporter
   img: assets/img/sponsors/oxygen250x80.png
