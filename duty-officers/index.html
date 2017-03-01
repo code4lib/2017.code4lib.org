@@ -19,7 +19,30 @@ title: Duty Officers
                 </p>
             </div>
 
-            {% for session in site.data.duty-officers %}
+            <h1>Contacting a Duty Officer</h1>
+            <p>
+                    To contact a duty officer, you can
+                    <ul>
+                        <li>Call or text <a href="tel:678-218-8064">678-218-8064</a>.</li>
+                        <li>Send an email to <a href="mailto:c4l17-duty-officers@googlegroups.com">c4l17-duty-officers@googlegroups.com</a>. Only Duty Officers are subscribed to this mailing list, and no archive is kept.</li>
+                        <li>Approach a Duty Officer in person, pictures of whom are below.</li>
+                        <li>Ask a volunteer at the Luskin Center registration desk to summon a Duty Officer.</li>
+                    </ul>
+            </p>
+            <div class="col-md-12">
+                <div class="row">
+                {% for officer in site.data.duty-officers %}
+                    <div class="col-md-4"><div class="speaker-box text-center">
+                        <div class="speaker-box-inner">
+                            <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                            <h3 class="speaker-name">{{ officer.name }}</h3>
+                        </div>
+                    </div></div>
+                {% endfor %}
+                </div>
+            </div>
+
+            {% for session in site.data.duty-officers-schedule %}
             <h2>{{ session.title }}</h2>
             <div class="col-xs-12 keynote-sequence sequence">
                 {% for officer in session.officers %}
