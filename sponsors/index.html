@@ -16,7 +16,7 @@ title: Sponsors
 
             <!-- Diamond -->
             <div class="row sponsor-row">
-                {% include sponsor_plate.html level="Diamond Sponsors" badge="diamond-badge" %}
+                {% include sponsor_plate.html level="Diamond Sponsor" badge="diamond-badge" %}
 
                 {% assign diamond = site.data.sponsors | where_exp:"item", "item.level == 'diamond'" %}
                 {% for sponsor in diamond %}
