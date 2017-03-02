@@ -92,8 +92,7 @@ p {
 }
 
 .section:nth-child(3) {
-  background: $primary;
-  color: #fff;
+  background: $primary-lighter;
 }
 
 .cell {
@@ -131,6 +130,15 @@ p {
 
 .sponsor-plate h2 {
   font-size: 3.5em;
+}
+
+.sponsor-name-only {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.sponsor-annotation {
+  font-style: italic;
+  font-size: 1.5em;
 }
 
 #targetedSponsorship .row:nth-child(even) .thumbnail {
@@ -640,6 +648,7 @@ p.speaker-inst{
 }
 .speaker-info-inner h4{
   padding: 0.5em;
+  color: $gray-dark;
 }
 
 .speaker-box{
@@ -702,6 +711,7 @@ p.speaker-inst{
   background: #fff;
   box-shadow: 4px 5px 0px rgba(0, 0, 0, 0.11);
   margin-bottom: 100px;
+  color: #3d3d3d;
 }
 
 .talk-detail-box .time-slot {
@@ -717,6 +727,7 @@ p.speaker-inst{
   background: $accent;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  color: #fff;
 }
 
 .talk-box-detail-icon {
@@ -873,4 +884,19 @@ p.speaker-inst{
 }
 .sponsor-badge.bronze{
   --highlight-color: #f2c6a5
+}
+
+/* =========================================================================
+   improved contrast for links in the photo banner on index page 
+   ========================================================================== */
+/* purposefully complex selector to avoid side effects - metageeky */
+div#main.jumbotron div.text-right ul.list-unstyled li {
+  color: #ddd;
+  font-style:italic;
+}
+
+div#main.jumbotron div.text-right ul.list-unstyled li a {
+  color: #F0FF80;
+  font-style: normal;
+  font-weight: bold;
 }

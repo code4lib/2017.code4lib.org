@@ -3,34 +3,31 @@
 
 {% if page.type == 'workshop' %}
     {% assign pageLength = 'empty' %}
-    {% assign pageDate = 'March 7th' %}
-    {% for location in site.data.locations %}
-        {% assign loc = location[1] %}
-        {% if loc.AM-sessions == page.slugTitle and loc.PM-sessions == page.slugTitle %}
-            {% assign pageLength = '9:00-4:30 (w/ lunch break)' %}
-            {% assign pageLocale = loc %}
-        {% elsif loc.AM-sessions == page.slugTitle %}
-            {% assign pageLength = '9-12' %}
-            {% assign pageLocale = loc %}
-        {% elsif loc.PM-sessions == page.slugTitle %}
-            {% assign pageLength = '1:30-4:30' %}
-            {% assign pageLocale = loc %}
-        {% endif %}
-    {% endfor %}
+    {% assign pageDate = 'March 6th' %}
+    {% if page.time == 'full' %}
+        {% assign pageLength = '9:00-4:30 (w/ lunch break)' %}
+    {% elsif page.time == 'am' %}
+        {% assign pageLength = '9-12' %}
+    {% elsif page.time == 'pm' %}
+        {% assign pageLength = '1:30-4:30' %}
+    {% endif %}
 {% endif %}
 
 {% if page.type == 'talk' %}
     {% if page.day == 1 %}
-        {% assign pageDate = 'March 8th' %}
+        {% assign pageDate = 'March 7th' %}
     {% endif %}
     {% if page.day == 2 %}
-        {% assign pageDate = 'March 9th' %}
+        {% assign pageDate = 'March 8th' %}
     {% endif %}
     {% if page.day == 3 %}
-        {% assign pageDate = 'March 10th' %}
+        {% assign pageDate = 'March 9th' %}
     {% endif %}
 {% endif %}
 
+{% if page.type == 'poster' %}
+    {% assign pageDate = 'March 7th' %}
+{% endif %}
 
 <div class="sub-container container-fluid presentation-container">
     <div class="row section">
@@ -51,7 +48,7 @@
                                 {% assign speaker = site.data.speakers_final[speakerId] %}
                                 {% if speaker.Show == 1 %}
                                 <div class="col-sm-3 text-center">
-                                    <a href="/speakers.html#{{speaker.Name | slugify }}">
+                                    <a href="/speakers/#{{speaker.Name | slugify }}">
                                         <img class="clip-circle-speaker" src="{{ speaker.Image-URL }}" alt="{{ speaker.Name }}">
                                         {% if event.groupId != 'key-open' and event.groupId != 'key-close' %}
                                         <span>{{ speaker.Name }}</span>
@@ -91,24 +88,26 @@
                         <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
                         <div class="talk-box-detail-value">{{ pageLength }}</div>
                     </div>
-                    {% endif %}
-
-                    <!-- building for workshops -->
-                    {% if page.type == 'workshop' %}
-                    <div class="col-xs-12 col-sm-12 col-md-12 building">
-                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
-                        <div class="talk-box-detail-value">
-                            <a href="{{ pageLocale.Map }}" target="_blank">{{ pageLocale.Building }}</a>
-                        </div>
+                    {% elsif page.type == 'poster' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-time"></span></div>
+                        <div class="talk-box-detail-value">{{ page.startTime | date: "%I:%M %p" }}</div>
                     </div>
                     {% endif %}
 
                     <!-- building for workshops -->
                     {% if page.type == 'workshop' %}
                     <div class="col-xs-12 col-sm-12 col-md-12 time-length">
-                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-info-sign"></span></div>
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
                         <div class="talk-box-detail-value">
-                            <a href="" data-toggle="modal" data-target="#floorplan">{{ pageLocale.Room }}</a>
+                            Room: {{ page.location }}
+                        </div>
+                    </div>
+                    {% elsif page.type == 'poster' %}
+                    <div class="col-xs-12 col-sm-12 col-md-12 time-length">
+                        <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div class="talk-box-detail-value">
+                            Room: Lobby
                         </div>
                     </div>
                     {% endif %}

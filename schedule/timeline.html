@@ -14,7 +14,31 @@ categories: Schedule
             </div>
         </div>
 
+        <!-- register/attend -->
+        {% if site.data.conf.toggles.register %}
+        <div class="row">
+                <div class="col-xs-12">
+                    <h2 style="border-bottom:1px solid; padding-bottom:5px;">Attend Code4Lib 2017!</h2>
+                </div>
+                <div class="col-xs-12 col-sm-7">
+                    <h3>Conference Attendance</h3>
+                    <a href="/attend/">Fees & additional information</a>
+                </div>
+                <div class="col-xs-12 col-sm-5 text-right">
+                    <h3><small class="light">December 14<sup>th</sup></small></h3>
+                    {% if site.data.conf.registration-form %}
+                    <a class="btn btn-primary btn-lg" href="{{ site.data.conf.registration-form }}" target="_blank">
+                    {% endif %}
+                        Register!
+                    {% if site.data.conf.registration-form %}
+                    </a>
+                    {% endif %}
+                </div>
+        </div>
+        {% endif %}
+
         <!-- Voting -->
+        {% if site.data.conf.toggles.vote-key or site.data.conf.toggles.vote-talk or site.data.conf.toggles.vote-panels or site.data.conf.toggles.vote-shop or site.data.conf.toggles.vote-shirt %}
         <div class="row">
             <div class="col-xs-12">
                 <h2 style="border-bottom:1px solid; padding-bottom:5px;">Voting</h2>
@@ -37,11 +61,11 @@ categories: Schedule
             {% endif %}
 
             <!-- Talks -->
+            {% if site.data.conf.toggles.vote-talk %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Conference Talks</h3>
                     <a href="/talks/proposed-talks.html">View Proposed Talks</a>
                 </div>
-            {% if site.data.conf.toggles.vote-talk %}
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Nov. 16<sup>th</sup> to Dec. 7<sup>th</sup></small></h3>
                     <a class="btn btn-primary btn-lg" href="{{ site.data.conf.talk-voting-link }}" target="_blank">Vote!</a>
@@ -49,11 +73,11 @@ categories: Schedule
             {% endif %}
 
             <!-- Panel -->
+            {% if site.data.conf.toggles.vote-panels %}
                 <div class="col-xs-12 col-sm-7">
                     <h3>Conference Panel</h3>
                     <a href="/panels/proposed-panels.html">View Proposed Panels</a>
                 </div>
-            {% if site.data.conf.toggles.vote-panels %}
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Nov. 16<sup>th</sup> to Dec. 7<sup>th</sup></small></h3>
                     <a class="btn btn-primary btn-lg" href="{{ site.data.conf.panel-voting-link }}" target="_blank">Vote!</a>
@@ -67,7 +91,7 @@ categories: Schedule
                     <a href="/workshops/proposed-workshops.html">View Proposed Workshops</a>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-right">
-                    <h3><small class="light">Now until Nov. 22<sup>nd</sup></small></h3>
+                    <h3><small class="light">Now until Nov. 28<sup>th</sup></small></h3>
                     <a class="btn btn-primary btn-lg" href="{{ site.data.conf.workshop-voting-link }}" target="_blank">Vote!</a>
                 </div>
             {% endif %}
@@ -83,6 +107,7 @@ categories: Schedule
                 </div>
             {% endif %}
         </div>
+        {% endif %}
 
         <!-- Proposals -->
         <div class="row">
@@ -90,6 +115,14 @@ categories: Schedule
             <div class="col-xs-12">
                 <h2 style="border-bottom:1px solid; padding-bottom:5px;">Proposals</h2>
             </div>
+
+            <!-- T-shirts -->
+            {% if site.data.conf.toggles.prop-shirt %}
+                <div class="col-xs-12 col-sm-7">
+                    <h3>T-shirt Logos</h3>
+                    <a href="https://wiki.code4lib.org/2017_Code4Lib_T-Shirt_Design_Competition">View the logo submissions</a>
+                </div>
+            {% endif %}
 
             <!-- Talks -->
             {% if site.data.conf.toggles.prop-talk %}
@@ -113,17 +146,6 @@ categories: Schedule
                 <div class="col-xs-12 col-sm-5 text-right">
                     <h3><small class="light">Now until Nov. 8<sup>th</sup></small></h3>
                     <a class="btn btn-primary" href="{{ site.data.conf.workshop-proposal-form }}">Propose a Workshop</a>
-                </div>
-            {% endif %}
-
-            <!-- T-shirts -->
-            {% if site.data.conf.toggles.prop-shirt %}
-                <div class="col-xs-12 col-sm-7">
-                    <h3>T-shirt Logos</h3>
-                </div>
-                <div class="col-xs-12 col-sm-5 text-right">
-                    <h3><small class="light">Now until Nov. 18<sup>th</sup></small></h3>
-                    <a class="btn btn-primary" href="{{ site.data.conf.shirt-proposal-form }}">Propose a Logo</a>
                 </div>
             {% endif %}
 
