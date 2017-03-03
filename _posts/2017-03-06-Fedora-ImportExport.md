@@ -107,7 +107,7 @@ If the version returned is 3.anything, all is well. If not, follow the direction
 #### Fedora Import/Export Verification Utility
 
 Download and unzip the import/export verification utility:
-<https://github.com/fcrepo4-labs/fcrepo-import-export-verify/archive/0.0.1.zip>
+<https://github.com/fcrepo4-labs/fcrepo-import-export-verify/archive/0.0.3.zip>
 
 Open a command terminal in the directory to which the zip file was unzipped to install the utility:
 
