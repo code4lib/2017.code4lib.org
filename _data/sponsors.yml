@@ -60,6 +60,7 @@
 - name: Drexel University Libraries
   link: https://www.library.drexel.edu/
   level: contributor
+  img: assets/img/sponsors/Drexel.jpg
 
 - name: Ex Libris
   link: http://www.exlibrisgroup.com/
@@ -86,6 +87,7 @@
 - name: University of California, San Diego Library
   link: https://library.ucsd.edu/
   level: bronze
+  img: assets/img/sponsors/UCSD.jpg
 
 - name: University of California, Berkeley Library
   link: http://www.lib.berkeley.edu/
@@ -96,6 +98,7 @@
   link: https://www.bluespark.com/
   level: gold
   img: assets/img/sponsors/bluespark.png
+  annotation: Streaming Video
 
 - name: IndexData
   level: gold
@@ -110,19 +113,22 @@
 - name: University of California Riverside Library
   level: bronze
   link: https://library.ucr.edu/
+  img: assets/img/sponsors/UCR.png
 
 - name: California Institute of Technology Library
   level: bronze
   link: https://library.caltech.edu/
+  img:  assets/img/sponsors/CaltechLibraryLogo2016outlinedCMYK.gif
 
 - name: LYRASIS
   level: bronze
   img: assets/img/sponsors/lyrasis.jpg
   link: https://www.lyrasis.org/Pages/Main.aspx
 
-- name: University of North Carolina - Chapel Hill
+- name: University of North Carolina - Chapel Hill - School of Information and Library Science
   level: contributor
-  link: http://library.unc.edu/
+  img: assets/img/sponsors/UNC_SILS_542.png
+  link: https://sils.unc.edu/
 
 - name: University of California Davis Library
   level: contributor
@@ -131,6 +137,7 @@
 - name: Villanova University Library
   level: contributor
   link: https://library.villanova.edu/
+  img: assets/img/sponsors/villanova.jpg
 
 - name: "iSchool@UBC: School of Library, Archival and Information Studies"
   level: contributor
@@ -191,3 +198,27 @@
   img: assets/img/sponsors/UNT.svg
   level: bronze
   link: http://www.library.unt.edu/
+
+- name: Wiley
+  level: contributor
+  img: assets/img/sponsors/Wiley_Wordmark_black.png
+  link: http://www.wiley.com/
+
+- name: VALE - Virtual Academic Library Environment of New Jersey
+  level: contributor
+  img: assets/img/sponsors/VALE-main-logo.png
+  link: http://www.valenj.org/
+
+- name: SCELC
+  level: contributor
+  img: assets/img/sponsors/SCELC.jpg
+  link: http://scelc.org
+
+- name: Mozilla
+  level: contributor
+  img: assets/img/sponsors/MozillaLogo_BW.jpg
+  link: https://mozilla.org
+
+- name: Anonymous Code4Lib Community Members
+  level: bronze
+  link: https://code4lib.org
