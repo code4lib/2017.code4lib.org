@@ -14,7 +14,7 @@ workshop-voting-link: "http://bit.ly/c4l17preconfvote"
 
 toggles:
   livestream: false
-  prop-shirt: true
+  prop-shirt: false
   prop-shop: false
   prop-talk: false
   register-shop: false
