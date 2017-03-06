@@ -26,25 +26,31 @@ title: Duty Officers
                 {% for officer in site.data.duty-officers %}
                     <div class="col-md-4"><div class="speaker-box text-center">
                         <div class="speaker-box-inner">
-                            <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
-                            <h3 class="speaker-name">{{ officer.name }}</h3>
+                            <img class="clip-circle-lg" src="/{{ officer[1].img }}" alt="{{ officer[1].name }}">
+                            <h3 class="speaker-name">{{ officer[1].name }}</h3>
                         </div>
                     </div></div>
                 {% endfor %}
                 </div>
             </div>
 
-            {% for session in site.data.duty-officers-schedule %}
+            <h1>Duty Officer Schedule</h1>
+            {% for session in site.data.duty-officer-schedule %}
             <h2>{{ session.title }}</h2>
             <div class="col-xs-12 keynote-sequence sequence">
-                {% for officer in session.officers %}
-                <div class="speaker-box text-center">
-                    <div class="speaker-box-inner">
-                        <img class="clip-circle-lg" src="{{ officer.img }}" alt="{{ officer.name }}">
-                        <h3 class="speaker-name">{{ officer.name }}</h3>
+                {% if session.all-hands %}
+                    <p><strong>All duty officers attending the event &mdash; look for the black lanyards!</strong></p>
+                {% else %}
+                    {% for officerId in session.officers %}
+                    {% assign officer = site.data.duty-officers[officerId] %}
+                    <div class="speaker-box text-center">
+                        <div class="speaker-box-inner">
+                            <img class="clip-circle-lg" src="/{{ officer.img }}" alt="{{ officer.name }}">
+                            <h3 class="speaker-name">{{ officer.name }}</h3>
+                        </div>
                     </div>
-                </div>
-                {% endfor %}
+                    {% endfor %}
+                 {% endif %}
             </div>
             {% endfor %}
       </div>
