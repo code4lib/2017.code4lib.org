@@ -133,6 +133,7 @@
 - name: University of California Davis Library
   level: contributor
   link: https://www.library.ucdavis.edu/
+  img: assets/img/sponsors/ucd_u-lib-logo-rgb-96dpi.png
 
 - name: Villanova University Library
   level: contributor
@@ -222,3 +223,8 @@
 - name: Anonymous Code4Lib Community Members
   level: bronze
   link: https://code4lib.org
+
+- name: California Digital Library
+  level: contributor
+  link: http://www.cdlib.org/
+  img: assets/img/sponsors/cdl_logo.gif

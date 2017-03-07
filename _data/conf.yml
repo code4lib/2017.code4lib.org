@@ -1,3 +1,4 @@
+captioning-url: "https://2020captioning.1capapp.com/event/code4lib/"
 keynote-voting-link: "https://vote.code4lib.org/election/41"
 livestream-url: "https://www.youtube.com/user/code4lib"
 panel-proposal-form: "https://goo.gl/forms/q2KbVcO4ntkh6bPp1"
@@ -13,12 +14,12 @@ workshop-voting-link: "http://bit.ly/c4l17preconfvote"
 
 
 toggles:
-  livestream: false
+  livestream: true
   prop-shirt: false
   prop-shop: false
   prop-talk: false
   register-shop: false
-  register: true
+  register: false
   search: false
   vote-key: false
   vote-panels: false
