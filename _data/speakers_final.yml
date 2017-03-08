@@ -275,6 +275,14 @@ betsy-coles:
   Show: 1
   Image-URL: /assets/img/speakers/nopic7.jpg
 
+ruth-collings:
+  Name: Ruth Collings
+  Last: Collings
+  Email: contact@ruthcollings.ca
+  Keynote: 0
+  Show: 1
+  Image-URL: /assets/img/speakers/nopic8.jpg
+
 ben-companjen:
   Name: Ben Companjen
   Last: Companjen
@@ -591,6 +599,16 @@ robert-haschart:
   Show: 1
   Image-URL: /assets/img/speakers/haschart.jpg
 
+margaret-heller:
+  Name: Margaret Heller
+  Last: Heller
+  Email: mheller1@luc.edu
+  Keynote: 0
+  Show: 1
+  Image-URL: /assets/img/speakers/heller.jpg
+  Bio: |
+    Margaret manages the institutional repository, develops the library website in Drupal, improves the Primo discovery layer, and is implementing a digital preservation program. In her spare time she researches social justice in repositories, community-based libraries and projects, and issues for working parents in technical positions. She is active in ALA and LITA, and has been kicking around Code4Lib since 2010. This is her 6th annual Code4Lib conference.
+
 cynthia-hudsonvitale:
   Name: Cynthia Hudson-Vitale
   Last: Hudson-Vitale
@@ -862,6 +880,13 @@ kaitlin-newson:
   Email: kaitlin.newson@utoronto.ca
   Show: 1
   Image-URL: /assets/img/speakers/nopic2.jpg
+
+jordan-nielsen:
+  Name: Jordan Nielsen
+  Last: Nielsen
+  Email: jnielsen@mail.sdsu.edu
+  Show: 1
+  Image-URL: /assets/img/speakers/nopic6.jpg
 
 kim-pham:
   Name: Kim Pham
