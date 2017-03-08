@@ -13,7 +13,7 @@
     {% endif %}
 {% endif %}
 
-{% if page.type == 'talk' %}
+{% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
     {% if page.day == 1 %}
         {% assign pageDate = 'March 7th' %}
     {% endif %}
@@ -73,7 +73,7 @@
                     <!-- date -->
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <!--<h3>Date</h3>-->
-                        {% if page.type == 'talk' %}
+                        {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                             <div class="talk-box-detail-icon"><span class="glyphicon glyphicon-calendar"></span></div>
                             <div class="talk-box-detail-value"> <a href="/schedule/day-{{page.day}}">{{ pageDate }}</a></div>
                         {% else %}
@@ -113,7 +113,7 @@
                     {% endif %}
 
                     <!-- group -->
-                    {% if page.type == 'talk' %}
+                    {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                     {% assign group_data = site.data.schedule | where:'groupId', page.group %}
                     {% assign group = group_data | first %}
                     <div class="col-xs-12 col-sm-12 col-md-12 time-slot">
@@ -126,7 +126,7 @@
                     {% endif %}
 
                     <!-- length -->
-                    {% if page.type == 'talk' %}
+                    {% if page.type == 'talk' or page.type == 'key-open' or page.type == 'key-close' %}
                     <div class="col-xs-12 col-sm-12 col-md-12 time-length">
                         <!--<h3>Length</h3>
                         <p>{{ page.length }} minutes</p>-->
